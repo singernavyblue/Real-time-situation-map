@@ -1,0 +1,25 @@
+# macOS 系统文件
+.DS_Store
+
+# 临时/锁定文件（Word 锁、Excel 锁等）
+.~*
+~$*
+
+# 密钥与环境变量（.env.example 可以提交，.env 绝不提交）
+.env
+*.env
+!*.env.example
+
+# 运行时数据与日志（不会上传）
+*.db
+*.db-wal
+*.db-shm
+logs/
+__pycache__/
+*.pyc
+demo_output/
+inbox/processed/
+03_live_system/data/weibo_exports/
+
+# 其他
+.DS_Store
