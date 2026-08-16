@@ -105,7 +105,7 @@ python 01_code_docs/scripts/build_data.py --atomic "路径/库.xlsx"   # ③ 重
 
 `build_data.py` 写 `data.js` 时已使用“临时文件 + 原子替换”，大屏不会读到写了一半的文件。
 
-## 真实渠道：B站 / 微博 / 抖音 / 微信公众号 / 百度知道 / 豆瓣（已实现）；知乎 / 快手 / 小红书待接入；Reddit 默认关闭
+## 真实渠道：B站 / 微博 / 抖音 / 微信公众号 / 百度知道 / 豆瓣 / 省市政务与媒体网站（已实现）；知乎 / 快手 / 小红书待接入；Reddit 默认关闭
 
 **B站**：已实现并实测通过——使用公开搜索接口（无需登录），自动获取指纹 cookie（buvid3/buvid4），带 412/429 风控重试；默认每个视频补充点赞/评论/转发。
 
@@ -150,6 +150,11 @@ python collect.py reddit
 | BAIDU_ZHIDAO_INTERVAL | 5 | 百度知道关键词间休息秒数 |
 | DOUBAN_GROUP_PAGES | 1 | 豆瓣小组讨论搜索页数 |
 | DOUBAN_GROUP_INTERVAL | 5 | 豆瓣关键词间休息秒数 |
+| LIVE_SITE_NEWS_ENABLED | 1 | 是否启用省市政务/媒体网站采集器 |
+| LIVE_SITE_NEWS_MAX_SITES | 15 | 每轮最多采集几个网站（0=全部） |
+| LIVE_SITE_NEWS_MAX_ITEMS | 10 | 每个网站最多保留几条命中记录 |
+| LIVE_SITE_NEWS_SOURCES | 空 | 逗号分隔过滤：省份/站点名/类别 |
+| LIVE_SITE_NEWS_SOURCES_JSON | site_sources.json | 网站源配置路径 |
 
 采集到的真实记录同样走 `clean_and_append.py` 入库、`build_data.py --atomic` 重算；`总体态度` 默认标“待核实”，后续接入模型或人工复核后改为正式态度。
 
@@ -249,6 +254,19 @@ python collect.py --check baidu_zhidao    # 自检
 python collect.py douban            # 采集豆瓣小组讨论
 python collect.py --check douban    # 自检
 ```
+
+**省市政务/媒体网站**：已接入通用 HTML 标题级采集——覆盖省政府门户、省民宗委、省级主流媒体、
+网信办/举报平台、自治州/自治县政府门户。站点清单由《各地区监测网站汇总表》核验生成，存在
+`site_sources.json`；连通性核验为 HTTP 200 的站点默认启用，403/412/超时站点保留但 `enabled=false`。
+
+```bash
+python collect.py site_news                        # 采集全部已启用站点（默认每轮最多 15 个）
+LIVE_SITE_NEWS_SOURCES=河北,山西 python collect.py site_news   # 只采集指定省份/站点
+LIVE_SITE_NEWS_MAX_SITES=0 python collect.py site_news         # 不限站点数
+```
+
+当前为“标题级”采集：命中 `LIVE_SEARCH_KEYWORDS` 的新闻标题转成 24 字段记录入库；
+正文、评论、态度字段后续再加详情页模板扩展。
 
 **小红书**：已实测，搜索页 SSR 不含结果、搜索 API 返回 404、探索页虽可无登录读取
 推荐笔记但无法按关键词检索（实测命中 0 条）；暂走人工/第三方导出（`inbox/`）。
@@ -408,6 +426,8 @@ LIVE_PLATFORM_ENABLED=1 ./start.sh
 - 历史基线：`data.js`（平台 12,351 / 地区 1,586 / 31 省 / 482 条原话 / 37 天趋势等），迁移为 `origin=history` 记录；
 - 原子化工作簿的「监测来源与查看信息」已改为自动统计：`build_data.py --atomic` 每次重算时
   从事实表生成（监测来源 = 各平台去重账号数，查看信息 = 记录条数），无需人工维护；
+- 大屏地区轮播为省级口径：每个省份一条轮播、地图高亮单个省（`regions` 数据自带
+  `provinces` 字段），原地区组信息保留在 `sourceGroup` 用于地区信息流匹配；
 - 实时增量：模拟器默认每 12 秒生成 1-3 条演示数据，验证「采集 → 判断 → 归一化 → 入库 → 重算 → 推送 → 前端刷新」全链路；接入真实渠道后请关闭模拟器（`--no-sim` 或 `LIVE_SIM_ENABLED=0`）；
 - 未命中民族相关关键词的记录进入 `pending`，需人工审核后才进入统计；
 - 数据库为 `data/live.db`，删除后运行 `./start.sh --reset` 可从第一阶段数据重建。

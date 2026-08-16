@@ -185,18 +185,40 @@ window.DASH_DATA = {
  ],
  "regions": [
   {
-   "name": "内蒙古、河北及东北",
-   "total": 31,
-   "support": 31,
+   "name": "四川",
+   "total": 766,
+   "support": 695,
+   "neutral": 0,
+   "qa": 5,
+   "worry": 7,
+   "criticism": 19,
+   "complaint": 4,
+   "implement": 24,
+   "fairness": 12,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "四川"
+   ],
+   "sourceGroup": "四川、甘肃民族地区"
+  },
+  {
+   "name": "甘肃",
+   "total": 228,
+   "support": 171,
    "neutral": 0,
    "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
+   "worry": 3,
+   "criticism": 24,
+   "complaint": 1,
+   "implement": 2,
+   "fairness": 17,
+   "discrimination": 10,
+   "pending": 0,
+   "provinces": [
+    "甘肃"
+   ],
+   "sourceGroup": "四川、甘肃民族地区"
   },
   {
    "name": "新疆",
@@ -210,12 +232,34 @@ window.DASH_DATA = {
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
-   "pending": 1
+   "pending": 0,
+   "provinces": [
+    "新疆"
+   ],
+   "sourceGroup": "新疆"
   },
   {
-   "name": "青海、西藏",
-   "total": 248,
-   "support": 247,
+   "name": "青海",
+   "total": 136,
+   "support": 136,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "青海"
+   ],
+   "sourceGroup": "青海、西藏"
+  },
+  {
+   "name": "西藏",
+   "total": 112,
+   "support": 111,
    "neutral": 0,
    "qa": 0,
    "worry": 1,
@@ -224,119 +268,11 @@ window.DASH_DATA = {
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "四川、甘肃民族地区",
-   "total": 994,
-   "support": 866,
-   "neutral": 0,
-   "qa": 5,
-   "worry": 10,
-   "criticism": 43,
-   "complaint": 5,
-   "implement": 26,
-   "fairness": 29,
-   "discrimination": 10,
-   "pending": 0
-  },
-  {
-   "name": "云南东中部民族地区",
-   "total": 3,
-   "support": 3,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "云南西部民族地区",
-   "total": 23,
-   "support": 21,
-   "neutral": 1,
-   "qa": 1,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "广东",
-   "total": 1,
-   "support": 1,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "广西",
-   "total": 1,
-   "support": 1,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "海南",
-   "total": 0,
-   "support": 0,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "宁夏、贵州、重庆、湖南、湖北、浙江",
-   "total": 0,
-   "support": 0,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "北京",
-   "total": 10,
-   "support": 4,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 6
+   "pending": 0,
+   "provinces": [
+    "西藏"
+   ],
+   "sourceGroup": "青海、西藏"
   },
   {
    "name": "天津",
@@ -350,12 +286,16 @@ window.DASH_DATA = {
    "implement": 0,
    "fairness": 1,
    "discrimination": 0,
-   "pending": 0
+   "pending": 0,
+   "provinces": [
+    "天津"
+   ],
+   "sourceGroup": "天津"
   },
   {
-   "name": "上海",
-   "total": 0,
-   "support": 0,
+   "name": "内蒙古",
+   "total": 31,
+   "support": 31,
    "neutral": 0,
    "qa": 0,
    "worry": 0,
@@ -364,63 +304,11 @@ window.DASH_DATA = {
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "山东",
-   "total": 0,
-   "support": 0,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "福建",
-   "total": 0,
-   "support": 0,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "山西",
-   "total": 0,
-   "support": 0,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
-  },
-  {
-   "name": "河南",
-   "total": 27,
-   "support": 27,
-   "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
-   "pending": 0
+   "pending": 0,
+   "provinces": [
+    "内蒙古"
+   ],
+   "sourceGroup": "内蒙古、河北及东北"
   },
   {
    "name": "江西",
@@ -434,7 +322,209 @@ window.DASH_DATA = {
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
-   "pending": 0
+   "pending": 0,
+   "provinces": [
+    "江西"
+   ],
+   "sourceGroup": "江西"
+  },
+  {
+   "name": "河南",
+   "total": 27,
+   "support": 27,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "河南"
+   ],
+   "sourceGroup": "河南"
+  },
+  {
+   "name": "云南",
+   "total": 26,
+   "support": 24,
+   "neutral": 1,
+   "qa": 1,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "云南"
+   ],
+   "sourceGroup": "云南东中部民族地区"
+  },
+  {
+   "name": "北京",
+   "total": 10,
+   "support": 4,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "北京"
+   ],
+   "sourceGroup": "北京"
+  },
+  {
+   "name": "广东",
+   "total": 1,
+   "support": 1,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "广东"
+   ],
+   "sourceGroup": "广东"
+  },
+  {
+   "name": "广西",
+   "total": 1,
+   "support": 1,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "广西"
+   ],
+   "sourceGroup": "广西"
+  },
+  {
+   "name": "河北",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "河北"
+   ],
+   "sourceGroup": "内蒙古、河北及东北"
+  },
+  {
+   "name": "山西",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "山西"
+   ],
+   "sourceGroup": ""
+  },
+  {
+   "name": "辽宁",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "辽宁"
+   ],
+   "sourceGroup": "内蒙古、河北及东北"
+  },
+  {
+   "name": "吉林",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "吉林"
+   ],
+   "sourceGroup": "内蒙古、河北及东北"
+  },
+  {
+   "name": "黑龙江",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "黑龙江"
+   ],
+   "sourceGroup": "内蒙古、河北及东北"
+  },
+  {
+   "name": "上海",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "上海"
+   ],
+   "sourceGroup": ""
   },
   {
    "name": "江苏",
@@ -448,7 +538,29 @@ window.DASH_DATA = {
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
-   "pending": 0
+   "pending": 0,
+   "provinces": [
+    "江苏"
+   ],
+   "sourceGroup": ""
+  },
+  {
+   "name": "浙江",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "浙江"
+   ],
+   "sourceGroup": "宁夏、贵州、重庆、湖南、湖北、浙江"
   },
   {
    "name": "安徽",
@@ -462,7 +574,137 @@ window.DASH_DATA = {
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
-   "pending": 0
+   "pending": 0,
+   "provinces": [
+    "安徽"
+   ],
+   "sourceGroup": ""
+  },
+  {
+   "name": "福建",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "福建"
+   ],
+   "sourceGroup": ""
+  },
+  {
+   "name": "山东",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "山东"
+   ],
+   "sourceGroup": ""
+  },
+  {
+   "name": "湖北",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "湖北"
+   ],
+   "sourceGroup": "宁夏、贵州、重庆、湖南、湖北、浙江"
+  },
+  {
+   "name": "湖南",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "湖南"
+   ],
+   "sourceGroup": "宁夏、贵州、重庆、湖南、湖北、浙江"
+  },
+  {
+   "name": "海南",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "海南"
+   ],
+   "sourceGroup": "海南"
+  },
+  {
+   "name": "重庆",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "重庆"
+   ],
+   "sourceGroup": "宁夏、贵州、重庆、湖南、湖北、浙江"
+  },
+  {
+   "name": "贵州",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "贵州"
+   ],
+   "sourceGroup": "宁夏、贵州、重庆、湖南、湖北、浙江"
   },
   {
    "name": "陕西",
@@ -476,7 +718,29 @@ window.DASH_DATA = {
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
-   "pending": 0
+   "pending": 0,
+   "provinces": [
+    "陕西"
+   ],
+   "sourceGroup": ""
+  },
+  {
+   "name": "宁夏",
+   "total": 0,
+   "support": 0,
+   "neutral": 0,
+   "qa": 0,
+   "worry": 0,
+   "criticism": 0,
+   "complaint": 0,
+   "implement": 0,
+   "fairness": 0,
+   "discrimination": 0,
+   "pending": 0,
+   "provinces": [
+    "宁夏"
+   ],
+   "sourceGroup": "宁夏、贵州、重庆、湖南、湖北、浙江"
   }
  ],
  "provinces": [

@@ -20,6 +20,7 @@ __pycache__/
 demo_output/
 inbox/processed/
 03_live_system/data/weibo_exports/
+**/data/backups/
 
 # 其他
 .DS_Store

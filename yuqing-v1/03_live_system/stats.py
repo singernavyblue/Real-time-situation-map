@@ -82,12 +82,13 @@ def compute_live_stats():
                 p["other"] += 1
             _add_num(nonsup, cat or "其他/未分类", 1)
 
-        if r["region"]:
-            name = r["region"]
+        if r["province"] or r["region"]:
+            name = r["province"] or r["region"] or "未分组"
             reg = regions.setdefault(name, {
                 "name": name, "total": 0, "support": 0, "neutral": 0, "qa": 0, "worry": 0,
                 "criticism": 0, "complaint": 0, "implement": 0, "fairness": 0,
-                "discrimination": 0, "pending": 0,
+                "discrimination": 0, "pending": 0, "provinces": [name],
+                "sourceGroup": r["region"] or "",
             })
             reg["total"] += 1
             reg["support"] += 1 if bucket == "support" else 0

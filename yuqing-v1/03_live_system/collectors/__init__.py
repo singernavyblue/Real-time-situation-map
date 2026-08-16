@@ -13,6 +13,7 @@ from collectors.douban import DoubanCollector
 from collectors.xiaohongshu import XiaohongshuCollector
 from collectors.bilibili import BilibiliCollector
 from collectors.reddit import RedditCollector
+from collectors.site_news import SiteNewsCollector
 
 COLLECTOR_CLASSES = [
     SimulatorCollector,
@@ -27,6 +28,7 @@ COLLECTOR_CLASSES = [
     XiaohongshuCollector,
     BilibiliCollector,
     RedditCollector,
+    SiteNewsCollector,
 ]
 
 

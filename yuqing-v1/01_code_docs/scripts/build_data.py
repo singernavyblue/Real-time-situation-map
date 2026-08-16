@@ -470,12 +470,32 @@ def build_from_atomic(path):
     platforms_list = sorted(platforms.values(), key=lambda x: x["total"], reverse=True)
     for p in platforms_list:
         p["supportRate"] = round(p["support"] / p["total"] * 100, 2) if p["total"] else 0.0
-    regions_list = sorted(regions.values(), key=lambda x: x["total"], reverse=True)
     provinces_list = sorted(provinces.values(), key=lambda x: x["total"], reverse=True)
     for pv in provinces_list:
         for g in pv.get("groups", []):
             if g["group"] in regions:
                 g["total"] = regions[g["group"]]["total"]
+    # 地区轮播维度：省级（每个省份一条，地图高亮单个省）
+    # 保留 sourceGroup（原地区组），让“地区信息流”也能匹配按地区组归类的原话
+    regions_list = []
+    for pv in provinces_list:
+        groups = pv.get("groups") or []
+        regions_list.append({
+            "name": pv["name"],
+            "total": pv["total"],
+            "support": pv["support"],
+            "neutral": pv["neutral"],
+            "qa": pv["qa"],
+            "worry": pv["worry"],
+            "criticism": pv["criticism"],
+            "complaint": pv["complaint"],
+            "implement": pv["implement"],
+            "fairness": pv["fairness"],
+            "discrimination": pv["discrimination"],
+            "pending": pv.get("pending", 0),
+            "provinces": [pv["name"]],
+            "sourceGroup": groups[0].get("group") if groups else "",
+        })
     langs_list = sorted(langs.values(), key=lambda x: x["value"], reverse=True)
     hot.sort(key=lambda x: x["likes"], reverse=True)
     hot = hot[:9]
@@ -622,7 +642,7 @@ if ATOMIC_XLSX:
     data = build_from_atomic(ATOMIC_XLSX)
     write_outputs(data)
     print("平台:", len(data["platforms"]), "合计:", data["topStats"]["totalOpinions"])
-    print("地区组:", len(data["regions"]), "合计:", sum(r["total"] for r in data["regions"]))
+    print("省级轮播:", len(data["regions"]), "合计:", sum(r["total"] for r in data["regions"]))
     print("省级行政区:", len(data["provinces"]))
     print("评论原话池:", len(data["quotes"]))
     print("趋势天数:", len(data["trend"]))
@@ -761,7 +781,7 @@ PROV_FULL = {
     "河南": "河南省", "湖北": "湖北省", "湖南": "湖南省", "广东": "广东省", "广西": "广西壮族自治区",
     "海南": "海南省", "重庆": "重庆市", "四川": "四川省", "贵州": "贵州省", "云南": "云南省",
     "西藏": "西藏自治区", "陕西": "陕西省", "甘肃": "甘肃省", "青海": "青海省", "宁夏": "宁夏回族自治区",
-    "新疆": "新疆维吾尔自治区",
+    "新疆": "新疆维吾尔自治区", "台湾": "台湾省",
 }
 prov_rows = read_table_rows(summary_file, "省级态度统计", ["省级行政区", "有效公众意见总数"])
 province_data = []
@@ -1350,6 +1370,27 @@ for p in province_data:
     province_list.append(prov)
 province_list.sort(key=lambda x: x["value"], reverse=True)
 
+# 地区轮播维度：省级（每个省份一条，地图高亮单个省）
+province_regions = []
+for p in province_list:
+    groups = p.get("groups") or []
+    province_regions.append({
+        "name": p["short"],
+        "total": p["value"],
+        "support": p["support"],
+        "neutral": p["neutral"],
+        "qa": p["qa"],
+        "worry": p["worry"],
+        "criticism": p["criticism"],
+        "complaint": p["complaint"],
+        "implement": p["implement"],
+        "fairness": p["fairness"],
+        "discrimination": p["discrimination"],
+        "pending": 0,
+        "provinces": [p["short"]],
+        "sourceGroup": groups[0]["group"] if groups else "",
+    })
+
 data = {
     "generatedAt": "2026-08-11",
     "topStats": {
@@ -1374,7 +1415,7 @@ data = {
     "languagePlatform": language_platform,
     "languageRegion": language_region,
     "langSpotlight": lang_spotlight,
-    "regions": region_groups_raw,
+    "regions": province_regions,
     "provinces": province_list,
     "attitude": {
         "macro": [

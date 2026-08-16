@@ -107,6 +107,18 @@ BAIDU_ZHIDAO_INTERVAL = float(os.getenv("BAIDU_ZHIDAO_INTERVAL", "5"))
 DOUBAN_GROUP_PAGES = int(os.getenv("DOUBAN_GROUP_PAGES", "1"))
 DOUBAN_GROUP_INTERVAL = float(os.getenv("DOUBAN_GROUP_INTERVAL", "5"))
 
+# 省市政务/媒体网站：通用 HTML 标题级采集（site_sources.json 驱动）
+SITE_NEWS_ENABLED = os.getenv("LIVE_SITE_NEWS_ENABLED", "1") == "1"
+SITE_NEWS_INTERVAL = int(os.getenv("LIVE_SITE_NEWS_INTERVAL", "1800"))
+SITE_NEWS_MAX_SITES = int(os.getenv("LIVE_SITE_NEWS_MAX_SITES", "15"))
+SITE_NEWS_MAX_ITEMS = int(os.getenv("LIVE_SITE_NEWS_MAX_ITEMS", "10"))
+# 逗号分隔的省份/站点名/类别过滤，例如 LIVE_SITE_NEWS_SOURCES=河北,山西
+SITE_NEWS_SOURCES = os.getenv("LIVE_SITE_NEWS_SOURCES", "").strip()
+SITE_NEWS_SOURCES_JSON = os.getenv(
+    "LIVE_SITE_NEWS_SOURCES_JSON",
+    os.path.join(BASE_DIR, "site_sources.json"),
+)
+
 # SSE 心跳间隔（秒）
 HEARTBEAT_INTERVAL = int(os.getenv("LIVE_HEARTBEAT_INTERVAL", "15"))
 
@@ -123,5 +135,6 @@ PLATFORM_GROUPS = [
     "知乎/B站/百度知道",
     "贴吧/头条/新闻评论",
     "微信公众号/视频号",
+    "省市政务/媒体网站",
     "其他",
 ]
