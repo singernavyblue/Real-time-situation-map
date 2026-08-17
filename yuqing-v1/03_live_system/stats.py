@@ -2,8 +2,9 @@
 """统计引擎：历史基线（第一阶段 data.js） + 实时增量（incidents）合并"""
 import copy
 import json
+import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import db
 from config import BASE_DATA_JS
@@ -18,10 +19,13 @@ def parse_data_js(path):
 
 
 def load_base_data():
+    source_mtime = str(os.path.getmtime(BASE_DATA_JS))
     data = db.get_meta("base_data")
-    if data is None:
+    cached_mtime = db.get_meta("base_data_mtime")
+    if data is None or cached_mtime != source_mtime:
         data = parse_data_js(BASE_DATA_JS)
         db.set_meta("base_data", data)
+        db.set_meta("base_data_mtime", source_mtime)
     return data
 
 
@@ -192,6 +196,25 @@ def merge_into_list(base_list, extra_list, key, sum_keys):
     return list(by.values())
 
 
+def normalize_trend(trend_by, start="2026-07-01"):
+    """Return a continuous daily timeline for all network records from the launch date."""
+    cleaned = {}
+    for d, v in trend_by.items():
+        if not d or d < start:
+            continue
+        cleaned[d] = cleaned.get(d, 0) + (v or 0)
+    start_dt = datetime.strptime(start, "%Y-%m-%d")
+    end_key = max(cleaned.keys(), default=now_iso()[:10])
+    end_dt = max(datetime.strptime(end_key, "%Y-%m-%d"), start_dt)
+    rows = []
+    cur = start_dt
+    while cur <= end_dt:
+        key = cur.strftime("%Y-%m-%d")
+        rows.append({"date": key, "value": cleaned.get(key, 0)})
+        cur += timedelta(days=1)
+    return rows
+
+
 def build_bootstrap():
     base = copy.deepcopy(load_base_data())
     live = compute_live_stats()
@@ -260,7 +283,7 @@ def build_bootstrap():
         trend_by[t["date"]] = trend_by.get(t["date"], 0) + (t.get("value") or 0)
     for d, v in live["trend"].items():
         trend_by[d] = trend_by.get(d, 0) + v
-    base["trend"] = [{"date": d, "value": v} for d, v in sorted(trend_by.items())]
+    base["trend"] = normalize_trend(trend_by)
 
     # 原话池（历史 + 实时）
     base["quotes"] = (base.get("quotes") or []) + [row_to_quote(r) for r in live["rows"]]

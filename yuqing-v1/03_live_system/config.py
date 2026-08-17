@@ -34,7 +34,7 @@ PORT = int(os.getenv("LIVE_PORT", "8765"))
 
 BASE_DATA_JS = os.getenv(
     "BASE_DATA_JS",
-    os.path.abspath(os.path.join(BASE_DIR, "..", "01_code_docs", "dashboard", "assets", "data.js")),
+    os.path.join(WEB_DIR, "assets", "data.js"),
 )
 
 # 模拟采集器（演示用，验证整条实时链路）
