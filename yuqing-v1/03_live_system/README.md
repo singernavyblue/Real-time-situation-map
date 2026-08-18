@@ -105,6 +105,18 @@ python 01_code_docs/scripts/build_data.py --atomic "路径/库.xlsx"   # ③ 重
 
 `build_data.py` 写 `data.js` 时已使用“临时文件 + 原子替换”，大屏不会读到写了一半的文件。
 
+## 历史 Excel 全量导入（02_data → 舆情事实表）
+
+如需把 `yuqing-v1/02_data/` 下各文件的有效舆情明细/扁平化数据/公众评论明细/非支持原话
+全量导入原子化工作簿（默认先清空旧事实表）：
+
+```bash
+python import_history_to_fact.py --xlsx "路径/Excel数据库改造示例.xlsx" --dry-run   # 先看统计
+python import_history_to_fact.py --xlsx "路径/Excel数据库改造示例.xlsx" --backup     # 正式导入
+```
+
+导入后仍需执行 `build_data.py --atomic` 重算大屏数据。
+
 ## 真实渠道：B站 / 微博 / 抖音 / 微信公众号 / 百度知道 / 豆瓣 / 省市政务与媒体网站（已实现）；知乎 / 快手 / 小红书待接入；Reddit 默认关闭
 
 **B站**：已实现并实测通过——使用公开搜索接口（无需登录），自动获取指纹 cookie（buvid3/buvid4），带 412/429 风控重试；默认每个视频补充点赞/评论/转发。

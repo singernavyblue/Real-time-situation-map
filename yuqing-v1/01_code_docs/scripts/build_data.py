@@ -345,7 +345,11 @@ def build_from_atomic(path):
         pgroup = clean_text(_f(rec, ["平台组"])) or _platform_group_of(plat) or "其他"
         region = clean_text(_f(rec, ["地区"]))
         rgroup = clean_text(_f(rec, ["地区组"])) or region or "未分组"
-        province = clean_text(_f(rec, ["省份"])) or region
+        _prov_fallback = region
+        _placeholder_mark = ("全国", "境外", "国际", "海峡", "未获取", "县级市", "涉及地区", "行政层级")
+        if _prov_fallback in ("自治州", "地区", "") or any(k in _prov_fallback for k in _placeholder_mark):
+            _prov_fallback = ""
+        province = clean_text(_f(rec, ["省份"])) or _prov_fallback
         lang = clean_text(_f(rec, ["语言"])) or "中文"
         date = parse_date(_f(rec, ["发布时间", "发布日期"]))
         likes = _aint(_f(rec, ["点赞量"]))
@@ -470,7 +474,11 @@ def build_from_atomic(path):
     platforms_list = sorted(platforms.values(), key=lambda x: x["total"], reverse=True)
     for p in platforms_list:
         p["supportRate"] = round(p["support"] / p["total"] * 100, 2) if p["total"] else 0.0
-    provinces_list = sorted(provinces.values(), key=lambda x: x["total"], reverse=True)
+    provinces_list = sorted(
+        [p for p in provinces.values() if p.get("name")],
+        key=lambda x: x["total"],
+        reverse=True,
+    )
     for pv in provinces_list:
         for g in pv.get("groups", []):
             if g["group"] in regions:
