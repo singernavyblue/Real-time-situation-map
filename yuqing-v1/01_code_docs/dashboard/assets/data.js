@@ -10,7 +10,7 @@ window.DASH_DATA = {
   "regionSupport": 5,
   "regionSupportRate": 29.41,
   "nonSupport": 6,
-  "nonSupportLabel": "非支持/非肯定态度",
+  "nonSupportLabel": "非正向态度",
   "monitorSources": 13,
   "monitorSourcesLabel": "监测来源数",
   "viewedInfo": 17,
