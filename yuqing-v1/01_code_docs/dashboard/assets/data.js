@@ -24,16 +24,16 @@ window.DASH_DATA = {
    "total": 201,
    "support": 19,
    "neutral": 3,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
+   "qa": 6,
+   "worry": 5,
+   "criticism": 73,
+   "complaint": 2,
+   "implement": 31,
+   "fairness": 27,
+   "discrimination": 34,
    "suggest": 0,
    "unknownLaw": 0,
-   "other": 178,
+   "other": 0,
    "supportRate": 9.45,
    "nonSupport": 178
   },
@@ -42,16 +42,16 @@ window.DASH_DATA = {
    "total": 108,
    "support": 26,
    "neutral": 9,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "qa": 2,
+   "worry": 5,
+   "criticism": 15,
    "complaint": 0,
-   "implement": 0,
+   "implement": 2,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
    "unknownLaw": 0,
-   "other": 24,
+   "other": 0,
    "supportRate": 24.07,
    "nonSupport": 24
   },
@@ -60,16 +60,16 @@ window.DASH_DATA = {
    "total": 75,
    "support": 22,
    "neutral": 4,
-   "qa": 0,
+   "qa": 1,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
    "unknownLaw": 0,
-   "other": 2,
+   "other": 0,
    "supportRate": 29.33,
    "nonSupport": 2
   },
@@ -78,16 +78,16 @@ window.DASH_DATA = {
    "total": 65,
    "support": 33,
    "neutral": 2,
-   "qa": 0,
-   "worry": 0,
+   "qa": 8,
+   "worry": 6,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
+   "implement": 1,
+   "fairness": 5,
    "discrimination": 0,
    "suggest": 0,
    "unknownLaw": 0,
-   "other": 20,
+   "other": 0,
    "supportRate": 50.77,
    "nonSupport": 20
   },
@@ -96,16 +96,16 @@ window.DASH_DATA = {
    "total": 58,
    "support": 17,
    "neutral": 16,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "qa": 7,
+   "worry": 8,
+   "criticism": 2,
    "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
+   "implement": 5,
+   "fairness": 2,
    "discrimination": 0,
    "suggest": 0,
    "unknownLaw": 0,
-   "other": 24,
+   "other": 0,
    "supportRate": 29.31,
    "nonSupport": 24
   },
@@ -114,16 +114,16 @@ window.DASH_DATA = {
    "total": 39,
    "support": 11,
    "neutral": 10,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
+   "qa": 3,
+   "worry": 2,
+   "criticism": 2,
+   "complaint": 2,
+   "implement": 2,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
    "unknownLaw": 0,
-   "other": 11,
+   "other": 0,
    "supportRate": 28.21,
    "nonSupport": 11
   },
@@ -132,16 +132,16 @@ window.DASH_DATA = {
    "total": 34,
    "support": 18,
    "neutral": 2,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "qa": 2,
+   "worry": 3,
+   "criticism": 3,
    "complaint": 0,
    "implement": 0,
-   "fairness": 0,
+   "fairness": 6,
    "discrimination": 0,
    "suggest": 0,
    "unknownLaw": 0,
-   "other": 14,
+   "other": 0,
    "supportRate": 52.94,
    "nonSupport": 14
   },
@@ -153,13 +153,13 @@ window.DASH_DATA = {
    "qa": 0,
    "worry": 0,
    "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
+   "complaint": 1,
+   "implement": 2,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
    "unknownLaw": 0,
-   "other": 3,
+   "other": 0,
    "supportRate": 61.9,
    "nonSupport": 3
   },
@@ -284,12 +284,12 @@ window.DASH_DATA = {
    "total": 120,
    "support": 38,
    "neutral": 19,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "qa": 5,
+   "worry": 2,
+   "criticism": 2,
    "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
+   "implement": 2,
+   "fairness": 1,
    "discrimination": 0,
    "pending": 0,
    "provinces": [
@@ -302,13 +302,13 @@ window.DASH_DATA = {
    "total": 91,
    "support": 1,
    "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
+   "qa": 5,
+   "worry": 4,
+   "criticism": 32,
+   "complaint": 2,
+   "implement": 25,
+   "fairness": 10,
+   "discrimination": 9,
    "pending": 0,
    "provinces": [
     "四川"
@@ -321,12 +321,12 @@ window.DASH_DATA = {
    "support": 2,
    "neutral": 2,
    "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
+   "worry": 2,
+   "criticism": 23,
+   "complaint": 1,
+   "implement": 1,
+   "fairness": 16,
+   "discrimination": 10,
    "pending": 0,
    "provinces": [
     "甘肃"
@@ -338,13 +338,13 @@ window.DASH_DATA = {
    "total": 36,
    "support": 29,
    "neutral": 1,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "qa": 1,
+   "worry": 1,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "pending": 0,
    "provinces": [
     "新疆"
@@ -357,11 +357,11 @@ window.DASH_DATA = {
    "support": 7,
    "neutral": 0,
    "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "worry": 1,
+   "criticism": 2,
    "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
+   "implement": 2,
+   "fairness": 1,
    "discrimination": 0,
    "pending": 0,
    "provinces": [
@@ -374,13 +374,13 @@ window.DASH_DATA = {
    "total": 15,
    "support": 5,
    "neutral": 0,
-   "qa": 0,
+   "qa": 1,
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
+   "implement": 2,
+   "fairness": 2,
+   "discrimination": 1,
    "pending": 0,
    "provinces": [
     "青海"
@@ -414,7 +414,7 @@ window.DASH_DATA = {
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
+   "implement": 1,
    "fairness": 0,
    "discrimination": 0,
    "pending": 0,
@@ -430,11 +430,11 @@ window.DASH_DATA = {
    "neutral": 2,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 2,
    "pending": 0,
    "provinces": [
     "浙江"
@@ -447,8 +447,8 @@ window.DASH_DATA = {
    "support": 1,
    "neutral": 0,
    "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "worry": 2,
+   "criticism": 2,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
@@ -466,11 +466,11 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 3,
    "pending": 0,
    "provinces": [
     "江苏"
@@ -518,13 +518,13 @@ window.DASH_DATA = {
    "total": 4,
    "support": 0,
    "neutral": 0,
-   "qa": 0,
+   "qa": 1,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
-   "implement": 0,
+   "implement": 1,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "pending": 0,
    "provinces": [
     "陕西"
@@ -538,11 +538,11 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
-   "implement": 0,
+   "implement": 2,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "pending": 0,
    "provinces": [
     "安徽"
@@ -573,11 +573,11 @@ window.DASH_DATA = {
    "support": 0,
    "neutral": 0,
    "qa": 0,
-   "worry": 0,
+   "worry": 3,
    "criticism": 0,
    "complaint": 0,
    "implement": 0,
-   "fairness": 0,
+   "fairness": 1,
    "discrimination": 0,
    "pending": 0,
    "provinces": [
@@ -612,9 +612,9 @@ window.DASH_DATA = {
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
+   "implement": 1,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "pending": 0,
    "provinces": [
     "辽宁"
@@ -628,11 +628,11 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 2,
    "pending": 0,
    "provinces": [
     "广东"
@@ -648,7 +648,7 @@ window.DASH_DATA = {
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
+   "implement": 2,
    "fairness": 0,
    "discrimination": 0,
    "pending": 0,
@@ -662,13 +662,13 @@ window.DASH_DATA = {
    "total": 3,
    "support": 0,
    "neutral": 0,
-   "qa": 0,
+   "qa": 1,
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 2,
    "pending": 0,
    "provinces": [
     "福建"
@@ -682,7 +682,7 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
@@ -704,7 +704,7 @@ window.DASH_DATA = {
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "pending": 0,
    "provinces": [
     "河南"
@@ -790,7 +790,7 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
@@ -810,15 +810,15 @@ window.DASH_DATA = {
    "total": 120,
    "support": 38,
    "neutral": 19,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "qa": 5,
+   "worry": 2,
+   "criticism": 2,
    "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
+   "implement": 2,
+   "fairness": 1,
    "discrimination": 0,
    "suggest": 0,
-   "other": 63,
+   "other": 51,
    "groups": [
     {
      "group": "沧源佤族自治县",
@@ -929,15 +929,15 @@ window.DASH_DATA = {
    "total": 91,
    "support": 1,
    "neutral": 0,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
+   "qa": 5,
+   "worry": 4,
+   "criticism": 32,
+   "complaint": 2,
+   "implement": 25,
+   "fairness": 10,
+   "discrimination": 9,
    "suggest": 0,
-   "other": 90,
+   "other": 3,
    "groups": [
     {
      "group": "四川",
@@ -969,14 +969,14 @@ window.DASH_DATA = {
    "support": 2,
    "neutral": 2,
    "qa": 0,
-   "worry": 0,
-   "criticism": 0,
-   "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
+   "worry": 2,
+   "criticism": 23,
+   "complaint": 1,
+   "implement": 1,
+   "fairness": 16,
+   "discrimination": 10,
    "suggest": 0,
-   "other": 75,
+   "other": 22,
    "groups": [
     {
      "group": "甘南藏族自治州",
@@ -1035,15 +1035,15 @@ window.DASH_DATA = {
    "total": 36,
    "support": 29,
    "neutral": 1,
-   "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "qa": 1,
+   "worry": 1,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "suggest": 0,
-   "other": 6,
+   "other": 2,
    "groups": [
     {
      "group": "新疆",
@@ -1111,14 +1111,14 @@ window.DASH_DATA = {
    "support": 7,
    "neutral": 0,
    "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "worry": 1,
+   "criticism": 2,
    "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
+   "implement": 2,
+   "fairness": 1,
    "discrimination": 0,
    "suggest": 0,
-   "other": 9,
+   "other": 3,
    "groups": [
     {
      "group": "西藏相关（境外活动）",
@@ -1141,15 +1141,15 @@ window.DASH_DATA = {
    "total": 15,
    "support": 5,
    "neutral": 0,
-   "qa": 0,
+   "qa": 1,
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
-   "fairness": 0,
-   "discrimination": 0,
+   "implement": 2,
+   "fairness": 2,
+   "discrimination": 1,
    "suggest": 0,
-   "other": 10,
+   "other": 4,
    "groups": [
     {
      "group": "青海",
@@ -1223,11 +1223,11 @@ window.DASH_DATA = {
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
+   "implement": 1,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
-   "other": 3,
+   "other": 2,
    "groups": [
     {
      "group": "宁夏",
@@ -1252,13 +1252,13 @@ window.DASH_DATA = {
    "neutral": 2,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 2,
    "suggest": 0,
-   "other": 3,
+   "other": 0,
    "groups": [
     {
      "group": "浙江",
@@ -1278,14 +1278,14 @@ window.DASH_DATA = {
    "support": 1,
    "neutral": 0,
    "qa": 0,
-   "worry": 0,
-   "criticism": 0,
+   "worry": 2,
+   "criticism": 2,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
-   "other": 4,
+   "other": 0,
    "groups": [
     {
      "group": "台湾相关（境外平台）",
@@ -1302,13 +1302,13 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 3,
    "suggest": 0,
-   "other": 4,
+   "other": 0,
    "groups": [
     {
      "group": "江苏",
@@ -1397,15 +1397,15 @@ window.DASH_DATA = {
    "total": 4,
    "support": 0,
    "neutral": 0,
-   "qa": 0,
+   "qa": 1,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
-   "implement": 0,
+   "implement": 1,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "suggest": 0,
-   "other": 4,
+   "other": 0,
    "groups": [
     {
      "group": "IP属地：陕西",
@@ -1430,13 +1430,13 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
-   "implement": 0,
+   "implement": 2,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "suggest": 0,
-   "other": 4,
+   "other": 0,
    "groups": [
     {
      "group": "安徽",
@@ -1483,14 +1483,14 @@ window.DASH_DATA = {
    "support": 0,
    "neutral": 0,
    "qa": 0,
-   "worry": 0,
+   "worry": 3,
    "criticism": 0,
    "complaint": 0,
    "implement": 0,
-   "fairness": 0,
+   "fairness": 1,
    "discrimination": 0,
    "suggest": 0,
-   "other": 4,
+   "other": 0,
    "groups": [
     {
      "group": "天津",
@@ -1532,11 +1532,11 @@ window.DASH_DATA = {
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
+   "implement": 1,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "suggest": 0,
-   "other": 2,
+   "other": 0,
    "groups": [
     {
      "group": "IP属地：辽宁",
@@ -1557,13 +1557,13 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 2,
    "suggest": 0,
-   "other": 3,
+   "other": 0,
    "groups": [
     {
      "group": "IP属地：广东",
@@ -1590,11 +1590,11 @@ window.DASH_DATA = {
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
-   "implement": 0,
+   "implement": 2,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
-   "other": 2,
+   "other": 0,
    "groups": [
     {
      "group": "IP属地：河北",
@@ -1613,15 +1613,15 @@ window.DASH_DATA = {
    "total": 3,
    "support": 0,
    "neutral": 0,
-   "qa": 0,
+   "qa": 1,
    "worry": 0,
    "criticism": 0,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 2,
    "suggest": 0,
-   "other": 3,
+   "other": 0,
    "groups": [
     {
      "group": "福建",
@@ -1638,13 +1638,13 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
-   "other": 1,
+   "other": 0,
    "groups": [
     {
      "group": "内蒙古",
@@ -1665,9 +1665,9 @@ window.DASH_DATA = {
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
-   "discrimination": 0,
+   "discrimination": 1,
    "suggest": 0,
-   "other": 1,
+   "other": 0,
    "groups": [
     {
      "group": "IP属地：河南",
@@ -1780,13 +1780,13 @@ window.DASH_DATA = {
    "neutral": 0,
    "qa": 0,
    "worry": 0,
-   "criticism": 0,
+   "criticism": 1,
    "complaint": 0,
    "implement": 0,
    "fairness": 0,
    "discrimination": 0,
    "suggest": 0,
-   "other": 1,
+   "other": 0,
    "groups": [
     {
      "group": "上饶",
@@ -1825,31 +1825,31 @@ window.DASH_DATA = {
    },
    {
     "name": "咨询疑问",
-    "value": 0
+    "value": 29
    },
    {
     "name": "担忧影响",
-    "value": 0
+    "value": 29
    },
    {
     "name": "明确批评",
-    "value": 0
+    "value": 96
    },
    {
     "name": "投诉维权",
-    "value": 0
+    "value": 5
    },
    {
     "name": "实施问题",
-    "value": 0
+    "value": 43
    },
    {
     "name": "公平争议",
-    "value": 0
+    "value": 40
    },
    {
     "name": "歧视偏见",
-    "value": 0
+    "value": 34
    },
    {
     "name": "参与建议",
@@ -1863,416 +1863,32 @@ window.DASH_DATA = {
  },
  "nonSupport": [
   {
-   "name": "强制同化与身份认同",
-   "value": 6
+   "name": "明确批评",
+   "value": 96
   },
   {
-   "name": "域外适用与跨境影响",
-   "value": 4
+   "name": "担忧影响",
+   "value": 29
   },
   {
-   "name": "台湾社会与政治影响",
-   "value": 4
+   "name": "咨询疑问",
+   "value": 29
   },
   {
-   "name": "法律目的与执法边界",
-   "value": 2
+   "name": "实施问题",
+   "value": 43
   },
   {
-   "name": "言论空间与少数群体权利",
-   "value": 2
+   "name": "公平争议",
+   "value": 40
   },
   {
-   "name": "西藏语言文化与境外抗议",
-   "value": 2
-  },
-  {
-   "name": "境外适用；制裁范围",
-   "value": 1
-  },
-  {
-   "name": "境外执行；长臂管辖",
-   "value": 1
-  },
-  {
-   "name": "普通人影响",
-   "value": 1
-  },
-  {
-   "name": "普通人影响；立法效果",
-   "value": 1
-  },
-  {
-   "name": "配套细则；可操作性",
-   "value": 1
-  },
-  {
-   "name": "配套细则",
-   "value": 2
-  },
-  {
-   "name": "条款边界；解释空间",
-   "value": 1
-  },
-  {
-   "name": "政策转向；法理正当性；民族优惠政策调整",
-   "value": 1
-  },
-  {
-   "name": "民族优惠；地域扶持",
-   "value": 1
-  },
-  {
-   "name": "融合导向；执法边界",
-   "value": 1
-  },
-  {
-   "name": "立法必要性；滥用风险",
-   "value": 1
-  },
-  {
-   "name": "概念界定；个人矛盾",
-   "value": 1
-  },
-  {
-   "name": "立法建议内容",
-   "value": 2
-  },
-  {
-   "name": "法律实施、政策解读或相关讨论",
-   "value": 8
-  },
-  {
-   "name": "权利保障与公平正义",
-   "value": 84
-  },
-  {
-   "name": "法律施行与总体解读",
-   "value": 7
-  },
-  {
-   "name": "民族团结与民族关系",
-   "value": 2
-  },
-  {
-   "name": "彝族、新疆同胞在外务工问题",
-   "value": 3
-  },
-  {
-   "name": "民族饮食问题",
-   "value": 2
-  },
-  {
-   "name": "禁止民族歧视、仇恨，全面推广普通话",
-   "value": 2
-  },
-  {
-   "name": "招聘不允许设置民族条件",
-   "value": 2
-  },
-  {
-   "name": "工作、生活全各民族平等",
-   "value": 4
-  },
-  {
-   "name": "各民族平等",
-   "value": 1
-  },
-  {
-   "name": "学业生活方面",
-   "value": 1
-  },
-  {
-   "name": "对强制同化的批评/担忧；第63条域外适用与跨境影响；公平争议",
-   "value": 1
-  },
-  {
-   "name": "维吾尔语教学、语言教育",
-   "value": 1
-  },
-  {
-   "name": "少数民族语言保护",
-   "value": 2
-  },
-  {
-   "name": "法律实施与执行",
-   "value": 4
-  },
-  {
-   "name": "第63条域外适用",
-   "value": 2
-  },
-  {
-   "name": "第63条域外适用；少数民族语言文化权利；国际回应",
-   "value": 1
-  },
-  {
-   "name": "国家通用语言文字推广、少数民族语言保护",
-   "value": 1
-  },
-  {
-   "name": "网络民族歧视、法律适用",
-   "value": 1
-  },
-  {
-   "name": "举报/执行风险",
-   "value": 1
-  },
-  {
-   "name": "法律执行/利用漏洞",
-   "value": 1
-  },
-  {
-   "name": "法律实施效果",
-   "value": 1
-  },
-  {
-   "name": "民族政策公平",
-   "value": 1
-  },
-  {
-   "name": "民族语言文化",
-   "value": 1
-  },
-  {
-   "name": "就业公平；刻板印象；群体内部反思",
-   "value": 10
-  },
-  {
-   "name": "执行效果质疑；纸面落实；政策可信度",
-   "value": 17
-  },
-  {
-   "name": "隐性拒录；企业规避；执法与举证困难",
-   "value": 12
-  },
-  {
-   "name": "政策层级；救济渠道；就业年龄",
+   "name": "投诉维权",
    "value": 5
   },
   {
-   "name": "就业前景；偏见持续；下一代发展",
-   "value": 3
-  },
-  {
-   "name": "低信息量负面评价",
-   "value": 4
-  },
-  {
-   "name": "讨论必要性质疑；法律宣传",
-   "value": 1
-  },
-  {
-   "name": "人身针对；负面评价",
-   "value": 1
-  },
-  {
-   "name": "民族与宗教概念边界；法律解释",
-   "value": 1
-  },
-  {
-   "name": "宗教信仰；饮食习惯；歧视争议",
-   "value": 1
-  },
-  {
-   "name": "宗教信仰；无神论；平等尊重",
-   "value": 1
-  },
-  {
-   "name": "个人解读质疑；法律解释",
-   "value": 1
-  },
-  {
-   "name": "公共服务/经营公平；民族差别待遇",
-   "value": 1
-  },
-  {
-   "name": "民族团结表述；资源责任",
-   "value": 1
-  },
-  {
-   "name": "饮食习惯；民族/宗教差异",
-   "value": 1
-  },
-  {
-   "name": "举报/投诉；宗教传播；民族团结",
-   "value": 1
-  },
-  {
-   "name": "可信度质疑",
-   "value": 3
-  },
-  {
-   "name": "宗教/民族服饰偏见",
-   "value": 1
-  },
-  {
-   "name": "对母帖作者可信度质疑",
-   "value": 1
-  },
-  {
-   "name": "民族政策公平；补助政策",
-   "value": 1
-  },
-  {
-   "name": "民族团结概念；权利边界",
-   "value": 1
-  },
-  {
-   "name": "饮食差异；评论争议",
-   "value": 1
-  },
-  {
-   "name": "民族身份质询",
-   "value": 1
-  },
-  {
-   "name": "反对母帖/作者观点",
-   "value": 1
-  },
-  {
-   "name": "宗教偏见",
-   "value": 1
-  },
-  {
-   "name": "作者可信度批评",
-   "value": 1
-  },
-  {
-   "name": "反对母帖传播；民族团结",
-   "value": 1
-  },
-  {
-   "name": "通婚/族群身份偏见",
-   "value": 1
-  },
-  {
-   "name": "反感民族议题传播；作者可信度",
-   "value": 1
-  },
-  {
-   "name": "宗教服饰刻板印象；民族团结",
-   "value": 1
-  },
-  {
-   "name": "宗教中国化；极端化认定",
-   "value": 1
-  },
-  {
-   "name": "执行一致性；作者可信度",
-   "value": 1
-  },
-  {
-   "name": "反感民族议题反复传播；民族团结",
-   "value": 1
-  },
-  {
-   "name": "反感相关议题传播；作者动机质疑",
-   "value": 1
-  },
-  {
-   "name": "反感内容重复传播",
-   "value": 1
-  },
-  {
-   "name": "宗教服饰/群体偏见",
-   "value": 1
-  },
-  {
-   "name": "民族政策公平；教育加分",
-   "value": 1
-  },
-  {
-   "name": "对负面评价的认同",
-   "value": 1
-  },
-  {
-   "name": "宗教服饰/饮食刻板印象",
-   "value": 1
-  },
-  {
-   "name": "国族/血统攻击",
-   "value": 1
-  },
-  {
-   "name": "对作者/表达环境的批评",
-   "value": 1
-  },
-  {
-   "name": "民族分类；回复支持",
-   "value": 1
-  },
-  {
-   "name": "作者可信度；言行一致",
-   "value": 1
-  },
-  {
-   "name": "对公平争议观点认同",
-   "value": 1
-  },
-  {
-   "name": "民族团结奖励；身份认同争议",
-   "value": 1
-  },
-  {
-   "name": "法律条款；宗教中国化",
-   "value": 1
-  },
-  {
-   "name": "宗教信仰；平等尊重",
-   "value": 1
-  },
-  {
-   "name": "饮食自由；相互尊重；民族团结",
-   "value": 1
-  },
-  {
-   "name": "族群排斥",
-   "value": 1
-  },
-  {
-   "name": "言行一致；执行效果",
-   "value": 1
-  },
-  {
-   "name": "族群/宗教身份攻击",
-   "value": 1
-  },
-  {
-   "name": "对作者可信度质疑",
-   "value": 1
-  },
-  {
-   "name": "学习生活方面",
-   "value": 1
-  },
-  {
-   "name": "说清红线",
-   "value": 1
-  },
-  {
-   "name": "学习方面，各民族平等",
-   "value": 1
-  },
-  {
-   "name": "宗教信仰、教育及法律实施相关担忧",
-   "value": 1
-  },
-  {
-   "name": "主题宣传活动",
-   "value": 1
-  },
-  {
-   "name": "调研督导与基层宣讲",
-   "value": 1
-  },
-  {
-   "name": "高层工作部署",
-   "value": 1
-  },
-  {
-   "name": "省级示范宣讲",
-   "value": 1
+   "name": "歧视偏见",
+   "value": 34
   }
  ],
  "trend": [

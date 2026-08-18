@@ -166,6 +166,30 @@ def _issue_of(att, issue):
             return name
     return ""
 
+
+_NONSUP_CATEGORY_KEYS = [
+    ("咨询疑问", ("咨询", "疑问", "诉求", "问题")),
+    ("担忧影响", ("担忧", "担心", "风险", "影响", "害怕")),
+    ("明确批评", ("批评", "质疑", "反对", "反感", "质询", "负面", "攻击", "差评")),
+    ("投诉维权", ("投诉", "维权", "举报", "救济", "申诉")),
+    ("实施问题", ("实施", "执行", "执法", "落实", "细则", "配套", "可操作", "边界", "条款", "漏洞", "滥用")),
+    ("公平争议", ("公平", "待遇", "优惠", "补助", "加分", "差别", "资源")),
+    ("歧视偏见", ("歧视", "偏见", "刻板", "排斥", "针对", "身份", "血统", "宗教")),
+    ("不了解该法律", ("不了解",)),
+]
+
+
+def _nonsup_category(issue, att):
+    a = str(att or "").strip()
+    if a in ("咨询疑问", "担忧影响", "明确批评", "投诉维权", "实施问题", "公平争议", "歧视偏见", "不了解该法律"):
+        return a
+    s = f"{issue or ''} {a}"
+    for name, keys in _NONSUP_CATEGORY_KEYS:
+        if any(k in s for k in keys):
+            return name
+    return "其他/未分类"
+
+
 def _platform_group_of(name):
     s = str(name or "")
     rules = [
@@ -340,6 +364,7 @@ def build_from_atomic(path):
         text = clean_text(_f(rec, ["正文"]))
         att = clean_text(_f(rec, ["总体态度", "态度"]))
         issue = _issue_of(att, clean_text(_f(rec, ["具体问题类别"])))
+        nonsup_cat = _nonsup_category(issue, att)
         bucket = _bucket_of(att)
         plat = clean_text(_f(rec, ["平台"]))
         pgroup = clean_text(_f(rec, ["平台组"])) or _platform_group_of(plat) or "其他"
@@ -371,7 +396,7 @@ def build_from_atomic(path):
             suggest += 1
         elif bucket == "non_support":
             non_support += 1
-            nonsup[issue or "其他/未分类"] = nonsup.get(issue or "其他/未分类", 0) + 1
+            nonsup[nonsup_cat] = nonsup.get(nonsup_cat, 0) + 1
         else:
             other += 1
         if region or province:
@@ -393,7 +418,7 @@ def build_from_atomic(path):
         p["suggest"] += 1 if bucket == "suggest" else 0
         if bucket == "non_support":
             p["nonSupport"] += 1
-            cat = issue
+            cat = nonsup_cat
             if cat in ("咨询疑问", "担忧影响", "明确批评", "投诉维权", "实施问题", "公平争议", "歧视偏见", "不了解该法律"):
                 p[{"咨询疑问": "qa", "担忧影响": "worry", "明确批评": "criticism", "投诉维权": "complaint",
                    "实施问题": "implement", "公平争议": "fairness", "歧视偏见": "discrimination",
@@ -410,7 +435,7 @@ def build_from_atomic(path):
         rg["support"] += 1 if bucket == "support" else 0
         rg["neutral"] += 1 if bucket == "neutral" else 0
         if bucket == "non_support":
-            cat = issue
+            cat = nonsup_cat
             if cat in ("咨询疑问", "担忧影响", "明确批评", "投诉维权", "实施问题", "公平争议", "歧视偏见"):
                 rg[{"咨询疑问": "qa", "担忧影响": "worry", "明确批评": "criticism", "投诉维权": "complaint",
                     "实施问题": "implement", "公平争议": "fairness", "歧视偏见": "discrimination"}[cat]] += 1
@@ -428,7 +453,7 @@ def build_from_atomic(path):
         if bucket == "suggest":
             pv["suggest"] += 1
         if bucket == "non_support":
-            cat = issue
+            cat = nonsup_cat
             if cat in ("咨询疑问", "担忧影响", "明确批评", "投诉维权", "实施问题", "公平争议", "歧视偏见", "不了解该法律"):
                 pv[{"咨询疑问": "qa", "担忧影响": "worry", "明确批评": "criticism", "投诉维权": "complaint",
                     "实施问题": "implement", "公平争议": "fairness", "歧视偏见": "discrimination",
