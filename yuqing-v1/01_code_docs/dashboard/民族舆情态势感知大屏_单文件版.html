@@ -9619,6 +9619,10 @@ window.DASH_DATA = {
       "北京":"微博/热榜","天津":"抖音等视频平台","河南":"抖音等视频平台","江西":"抖音等视频平台",
       "广西":"微信公众号/视频号","广东":"抖音等视频平台"
     };
+    const REGION_SOURCE_GROUPS={
+      "四川":"四川、甘肃民族地区","甘肃":"四川、甘肃民族地区","内蒙古":"内蒙古、河北及东北","河北":"内蒙古、河北及东北","辽宁":"内蒙古、河北及东北","吉林":"内蒙古、河北及东北","黑龙江":"内蒙古、河北及东北",
+      "青海":"青海、西藏","西藏":"青海、西藏","云南":"云南东中部民族地区","浙江":"宁夏、贵州、重庆、湖南、湖北、浙江","湖北":"宁夏、贵州、重庆、湖南、湖北、浙江","湖南":"宁夏、贵州、重庆、湖南、湖北、浙江","重庆":"宁夏、贵州、重庆、湖南、湖北、浙江","贵州":"宁夏、贵州、重庆、湖南、湖北、浙江","宁夏":"宁夏、贵州、重庆、湖南、湖北、浙江"
+    };
     const PLAT_KEYS={
       "微博/热榜":["微博","热榜"],
       "抖音等视频平台":["抖音","视频平台","视频"],
@@ -9644,9 +9648,21 @@ window.DASH_DATA = {
       return String(name).replace(/省|市|壮族自治区|回族自治区|维吾尔自治区|自治区|特别行政区/g,"");
     }
     function provinceValue(name){
+      return provinceStats(name).total;
+    }
+    function provinceStats(name){
       const short=normalizeProvince(name);
       const hit=(D.provinces||[]).find(p=>normalizeProvince(p.name||p.short)===short);
-      return hit?.total ?? hit?.value ?? 0;
+      const focus=regionFocusRows.find(r=>r.name===short || (r.provinces||[]).some(p=>normalizeProvince(p)===short));
+      if(hit){
+        return {
+          total:Number(hit.value ?? hit.total ?? focus?.total ?? 0),
+          support:Number(hit.support ?? focus?.support ?? 0),
+          neutral:Number(hit.neutral ?? focus?.neutral ?? 0)
+        };
+      }
+      if(focus)return {total:Number(focus.total||0),support:Number(focus.support||0),neutral:Number(focus.neutral||0)};
+      return {total:0,support:0,neutral:0};
     }
     function provinceFullName(shortName){
       const hit=((window.CHINA_GEO&&window.CHINA_GEO.features)||[]).find(f=>normalizeProvince(f.properties&&f.properties.name)===shortName);
@@ -9668,26 +9684,23 @@ window.DASH_DATA = {
       return baseRegionProvinces(regionName);
     }
     function buildRegionFocusRows(){
-      const rows=[];
-      (D.regions||[]).forEach(r=>{
-        if(r.provinces&&r.provinces.length){
-          // 省级口径：每条 region = 一个省份，地图高亮单个省
-          rows.push({...r,provinces:r.provinces});
-        }else if(r.name==="内蒙古、河北及东北"){
-          ["内蒙古","河北","辽宁","吉林","黑龙江"].forEach(short=>{
-            const p=(D.provinces||[]).find(x=>normalizeProvince(x.name||x.short)===short);
-            rows.push({
-              name:short,total:p?.value||p?.total||0,support:p?.support||0,neutral:p?.neutral||0,
-              qa:p?.qa||0,worry:p?.worry||0,criticism:p?.criticism||0,complaint:p?.complaint||0,
-              implement:p?.implement||0,fairness:p?.fairness||0,discrimination:p?.discrimination||0,
-              pending:p?.pending||0,provinces:[short],sourceGroup:r.name
-            });
-          });
-        }else{
-          rows.push({...r,provinces:baseRegionProvinces(r.name)});
-        }
+      const byRegion=new Map((D.regions||[]).map(r=>[normalizeProvince(r.name),r]));
+      const byProvince=new Map((D.provinces||[]).map(p=>[normalizeProvince(p.name||p.short),p]));
+      const geoNames=((window.CHINA_GEO&&window.CHINA_GEO.features)||[]).map(f=>normalizeProvince(f.properties&&f.properties.name)).filter(Boolean);
+      regionFocusRows=geoNames.map(short=>{
+        const r=byRegion.get(short)||{};
+        const p=byProvince.get(short)||{};
+        const total=Number(r.total ?? p.total ?? p.value ?? 0);
+        const support=Number(r.support ?? p.support ?? 0);
+        const neutral=Number(r.neutral ?? p.neutral ?? 0);
+        return {
+          name:short,total,support,neutral,
+          qa:Number(r.qa ?? p.qa ?? 0),worry:Number(r.worry ?? p.worry ?? 0),criticism:Number(r.criticism ?? p.criticism ?? 0),complaint:Number(r.complaint ?? p.complaint ?? 0),
+          implement:Number(r.implement ?? p.implement ?? 0),fairness:Number(r.fairness ?? p.fairness ?? 0),discrimination:Number(r.discrimination ?? p.discrimination ?? 0),
+          suggest:Number(r.suggest ?? p.suggest ?? 0),other:Number(r.other ?? p.other ?? 0),pending:Number(r.pending ?? p.pending ?? 0),
+          provinces:[short],sourceGroup:r.sourceGroup||REGION_SOURCE_GROUPS[short]||"",fullName:provinceFullName(short)
+        };
       });
-      regionFocusRows=rows;
     }
     function activeRegion(){return regionFocusRows[state.regionIndex]||regionFocusRows[0]||{}}
     function activePlatform(){return platformRows()[state.platformIndex]||platformRows()[0]||{}}
