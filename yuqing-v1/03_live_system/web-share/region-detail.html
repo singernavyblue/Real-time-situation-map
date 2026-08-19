@@ -28,6 +28,7 @@
     </section>
   </main>
   <script src="assets/echarts.min.js"></script>
+  <script src="assets/data.js"></script>
   <script>
     const $=id=>document.getElementById(id);
     const fmt=n=>Number(n||0).toLocaleString("zh-CN");
@@ -38,9 +39,10 @@
       const total=rows.reduce((s,r)=>s+Number(r.total||0),0);
       const support=rows.reduce((s,r)=>s+Number(r.support||0),0);
       const nonSupport=rows.reduce((s,r)=>s+r.nonSupport,0);
-      $("updated").textContent=`数据来源：/api/bootstrap · 更新时间：${d.generatedAt||"实时"}`;
+      const staticMode = d===window.DASH_DATA;
+      $("updated").textContent=`数据来源：${staticMode?"本地 data.js（静态模式）":"/api/bootstrap"} · 更新时间：${d.generatedAt||"实时"}`;
       $("cards").innerHTML=[
-        ["地区数量",rows.length],["省区舆情量",total],["支持认可",support],["非支持/非肯定",nonSupport]
+        ["地区数量",rows.length],["省区舆情量",total],["支持认可",support],["非正向态度",nonSupport]
       ].map(([a,b])=>`<div class="card"><span>${a}</span><b>${fmt(b)}</b></div>`).join("");
       $("rows").innerHTML=rows.map(r=>`<tr><td><b>${esc(r.name||"未标注")}</b></td><td class="hot">${fmt(r.total)}</td><td>${fmt(r.support)}</td><td>${fmt(r.neutral)}</td><td>${fmt(r.nonSupport)}</td><td>${pct(r.support,r.total)}</td></tr>`).join("");
       const chart=echarts.init($("regionChart"));
@@ -48,7 +50,13 @@
       chart.setOption({grid:{left:70,right:38,top:10,bottom:20},tooltip:{trigger:"axis"},xAxis:{type:"value",axisLabel:{color:"#9cc9df"},splitLine:{lineStyle:{color:"rgba(127,197,236,.1)"}}},yAxis:{type:"category",data:chartRows.map(r=>r.name),axisLabel:{color:"#d8f0ff"}},series:[{type:"bar",data:chartRows.map(r=>r.total),barWidth:16,itemStyle:{color:"#38bde8"},label:{show:true,position:"right",color:"#fff",formatter:p=>fmt(p.value)}}]});
       window.addEventListener("resize",()=>chart.resize());
     }
-    fetch("/api/bootstrap",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("API "+r.status);return r.json()}).then(render).catch(e=>{$("rows").innerHTML=`<tr><td colspan="6" class="error">详情数据加载失败：${esc(e.message)}</td></tr>`});
+    function loadDetailData(){
+      if(location.protocol==="file:")return Promise.resolve(window.DASH_DATA);
+      return fetch("/api/bootstrap",{cache:"no-store"})
+        .then(r=>{if(!r.ok)throw new Error("API "+r.status);return r.json()})
+        .catch(()=>window.DASH_DATA);
+    }
+    loadDetailData().then(render).catch(e=>{$("rows").innerHTML=`<tr><td colspan="6" class="error">详情数据加载失败：${esc(e.message)}</td></tr>`});
   </script>
 </body>
 </html>

@@ -25,6 +25,16 @@ cd yuqing-v1/03_live_system
 
 如果系统自带 Python 不可用（例如缺少 Xcode Command Line Tools），`start.sh` 会自动切换到 Codex 自带运行时。
 
+## 统一大屏：一套页面、两种模式
+
+大屏页面统一维护在 `web/` 目录，不再区分静态版/动态版两套页面：
+
+- **动态模式（默认）**：`start.sh` 启动后，页面通过 `/api/bootstrap` 读取合并数据，并通过 SSE（`/api/events`）秒级刷新；
+- **静态模式**：没有服务器时，页面自动回退读取 `web/assets/data.js`（GitHub Pages 部署的就是这套页面，可直接打开网址查看），详情页同样会回退到本地 `data.js`；
+- **自动刷新**：`web/大屏自动刷新.html` 每 300 秒重新加载一次大屏，适合大屏长期展示。
+
+更新静态数据：运行 `run_pipeline.sh`（或 `build_data.py --atomic`），会重新生成 `web/assets/data.js` 和 `web/assets/china.js`；推送 `main` 后 GitHub Pages 自动重新部署。
+
 ## collect.py 统一采集入口
 
 采集器统一由 `collect.py` 调度，输出统一为“舆情事实表”24 个字段的 JSON，放入 `inbox/`：

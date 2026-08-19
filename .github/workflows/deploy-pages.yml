@@ -27,7 +27,7 @@ jobs:
       - name: Upload dashboard artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: yuqing-v1/01_code_docs/dashboard
+          path: yuqing-v1/03_live_system/web
 
       - name: Deploy to GitHub Pages
         id: deployment

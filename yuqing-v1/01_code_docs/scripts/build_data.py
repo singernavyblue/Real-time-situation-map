@@ -30,6 +30,9 @@ def _resolve_out():
     env = os.environ.get("DASH_OUT")
     if env:
         return env
+    live_pkg = os.path.abspath(os.path.join(_SCRIPT_DIR, "..", "..", "03_live_system", "web", "assets"))
+    if os.path.isdir(live_pkg):
+        return live_pkg
     pkg = os.path.abspath(os.path.join(_SCRIPT_DIR, "..", "dashboard", "assets"))
     if os.path.isdir(pkg):
         return pkg

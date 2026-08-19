@@ -24,7 +24,7 @@
 ```bash
 cd yuqing-v1/03_live_system
 
-# ① 静态大屏（5 分钟准实时）：定时流水线
+# ① 更新大屏数据（5 分钟准实时）：定时流水线
 ./run_pipeline.sh "路径/Excel数据库改造示例.xlsx"
 
 # ② 实时大屏（SSE 秒级推送）：真实平台自动调度
@@ -32,14 +32,23 @@ LIVE_PLATFORM_ENABLED=1 ./start.sh
 # 打开 http://127.0.0.1:8765/
 ```
 
+## 统一大屏（一套页面、两种模式）
+
+大屏页面只有一套：`yuqing-v1/03_live_system/web/`。
+
+- **静态模式**：没有服务器时直接读取 `assets/data.js`。GitHub Pages 部署的就是这一套，打开即看（含 300 秒自动刷新包装页）。
+- **动态模式**：`start.sh` 启动服务后，页面自动改走 `/api/bootstrap` + SSE，采集到的数据实时刷新。
+
+线上地址：<https://singernavyblue.github.io/Real-time-situation-map/>
+
 ## 核心流程
 
 ```text
 平台（微博/抖音/B站/公众号/百度知道/豆瓣）
     ↓ collect.py：统一 24 字段 JSON
     ↓ clean_and_append.py：归一化 + 去重 + 追加「舆情事实表」
-    ↓ build_data.py --atomic：全量重算 → data.js
-    ↓ 大屏刷新（静态版 300 秒） / SSE 秒级推送（实时版）
+    ↓ build_data.py --atomic：全量重算 → web/assets/data.js
+    ↓ 大屏刷新（静态模式 300 秒） / SSE 秒级推送（动态模式）
 ```
 
 详细说明见 `yuqing-v1/03_live_system/README.md` 和 `yuqing-v1/03_live_system/docs/`。
