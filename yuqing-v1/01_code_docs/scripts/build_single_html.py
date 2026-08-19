@@ -8,6 +8,9 @@ def _resolve_base():
     env = os.environ.get("DASH_BASE")
     if env:
         return env
+    pkg = os.path.abspath(os.path.join(_SCRIPT_DIR, "..", "..", "03_live_system", "web"))
+    if os.path.isdir(pkg):
+        return pkg
     pkg = os.path.abspath(os.path.join(_SCRIPT_DIR, "..", "dashboard"))
     if os.path.isdir(pkg):
         return pkg
