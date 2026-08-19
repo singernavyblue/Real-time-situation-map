@@ -9832,6 +9832,8 @@ window.DASH_DATA = {
           labelLayout:p=>{
             const short=normalizeProvince(p.name);
             if(short==="河北")return {dx:14,dy:-1};
+            if(short==="香港")return {dx:24,dy:-10};
+            if(short==="澳门")return {dx:18,dy:16};
             if(short==="甘肃")return {dx:-8,dy:-4};
             return {dy:-14};
           },

@@ -433,6 +433,8 @@
           labelLayout:p=>{
             const short=normalizeProvince(p.name);
             if(short==="河北")return {dx:14,dy:-1};
+            if(short==="香港")return {dx:24,dy:-10};
+            if(short==="澳门")return {dx:18,dy:16};
             return {dy:-14};
           },
           itemStyle:{areaColor:"#173555",borderColor:"#0d3857",borderWidth:1},
