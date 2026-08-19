@@ -122,7 +122,7 @@
         <div id="attitudeChart" class="chart"></div>
       </section>
       <section class="panel">
-        <div class="panel-title"><h2>非支持态度</h2><span></span></div>
+        <div class="panel-title"><h2>非正向态度</h2><span></span></div>
         <div id="nonSupportChart" class="chart"></div>
       </section>
       <section class="panel">
@@ -431,7 +431,7 @@
     }
     function renderBottomCharts(){
       charts.attitude.setOption(ringOption(D.attitude?.macro||[],"支持率"),true);
-      charts.nonSupport.setOption(barOption((D.nonSupport||[]).map((x,i)=>({...x,itemStyle:{color:MUTED_BAR_COLORS[i%MUTED_BAR_COLORS.length]}})),"非支持态度",{left:82,right:18,top:12,bottom:8,barWidth:10}),true);
+      charts.nonSupport.setOption(barOption((D.nonSupport||[]).map((x,i)=>({...x,itemStyle:{color:MUTED_BAR_COLORS[i%MUTED_BAR_COLORS.length]}})),"非正向态度",{left:82,right:18,top:12,bottom:8,barWidth:10}),true);
       charts.timeline.setOption(timelineOption(),true);
       const t=activeTimeline();
       $("timelineTag").textContent=t.date?`${t.date}｜${fmt(t.value)} 条`:"逐日有效舆情";
