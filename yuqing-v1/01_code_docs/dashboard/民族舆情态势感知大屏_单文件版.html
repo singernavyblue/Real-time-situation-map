@@ -9827,6 +9827,7 @@ window.DASH_DATA = {
           label:{show:true,color:"#f4fbff",fontSize:10,formatter:p=>{
             const short=normalizeProvince(p.name);
             if(short==="河北")return "";
+            if(short==="香港"||short==="澳门")return `${short}\n${fmt(p.value||0)}`;
             return p.value||rotationSet.has(short)?`${short}\n${fmt(p.value||0)}`:"";
           }},
           labelLayout:p=>{
