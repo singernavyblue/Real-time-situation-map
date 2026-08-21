@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "generatedAt": "2026-08-19",
+ "generatedAt": "2026-08-21",
  "topStats": {
   "totalOpinions": 607,
   "totalOpinionsLabel": "平台维度公众意见总量",
@@ -2044,6 +2044,7 @@ window.DASH_DATA = {
  "quotes": [
   {
    "platform": "哔哩哔哩/B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "青海/西藏",
    "group": "青海/西藏",
    "attitude": "担忧影响",
@@ -2056,6 +2057,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -2068,6 +2070,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "官方政策信息",
@@ -2080,6 +2083,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "官方政策信息",
@@ -2092,6 +2096,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -2104,6 +2109,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -2116,6 +2122,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -2128,6 +2135,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -2140,6 +2148,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -2152,6 +2161,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "广西",
    "group": "广西",
    "attitude": "支持认可",
@@ -2164,6 +2174,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可法律",
@@ -2176,6 +2187,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -2188,6 +2200,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -2200,6 +2213,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "海南",
    "group": "海南",
    "attitude": "支持认可",
@@ -2212,6 +2226,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "云南网",
+   "platformGroup": "其他",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -2224,6 +2239,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "搜狐视频",
+   "platformGroup": "其他",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -2236,6 +2252,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -2248,6 +2265,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中国人大网",
+   "platformGroup": "其他",
    "region": "广西",
    "group": "广西",
    "attitude": "支持认可",
@@ -2260,6 +2278,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "IP属地：上海",
    "group": "IP属地：上海",
    "attitude": "中性信息",
@@ -2272,6 +2291,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -2284,6 +2304,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -2296,6 +2317,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -2308,6 +2330,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -2320,6 +2343,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "投诉维权",
@@ -2332,6 +2356,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -2344,6 +2369,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -2356,6 +2382,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -2368,6 +2395,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询疑问",
@@ -2380,6 +2408,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "新疆",
    "group": "新疆",
    "attitude": "歧视偏见",
@@ -2392,6 +2421,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "安徽",
    "group": "安徽",
    "attitude": "明确批评",
@@ -2404,6 +2434,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "批评",
@@ -2416,6 +2447,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -2428,6 +2460,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中国新闻网",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "青海省、果洛藏族自治州",
    "group": "青海",
    "attitude": "官方政策信息",
@@ -2440,6 +2473,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -2452,6 +2486,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "今日头条",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "四川",
    "group": "四川",
    "attitude": "投诉维权",
@@ -2464,6 +2499,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "新疆",
    "group": "新疆",
    "attitude": "支持认可",
@@ -2476,6 +2512,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "四川",
    "group": "四川",
    "attitude": "支持认可",
@@ -2488,6 +2525,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号评论区",
+   "platformGroup": "微信公众号/视频号",
    "region": "新疆维吾尔自治区",
    "group": "新疆维吾尔自治区",
    "attitude": "待维吾尔语人员复核",
@@ -2500,6 +2538,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可促进法",
@@ -2512,6 +2551,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "担忧影响",
@@ -2524,6 +2564,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2536,6 +2577,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -2548,6 +2590,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "新华网",
+   "platformGroup": "其他",
    "region": "西藏自治区",
    "group": "西藏",
    "attitude": "官方政策信息",
@@ -2560,6 +2603,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -2572,6 +2616,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "实施问题",
@@ -2584,6 +2629,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "明确批评",
@@ -2596,6 +2642,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -2608,6 +2655,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2620,6 +2668,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "河南",
    "group": "河南",
    "attitude": "歧视偏见",
@@ -2632,6 +2681,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2644,6 +2694,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -2656,6 +2707,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "中性信息",
@@ -2668,6 +2720,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -2680,6 +2733,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "辽宁",
    "group": "辽宁",
    "attitude": "歧视偏见",
@@ -2692,6 +2746,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "担忧",
@@ -2704,6 +2759,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -2716,6 +2772,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2728,6 +2785,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "公平争议",
@@ -2740,6 +2798,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2752,6 +2811,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中国新闻网",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "青海省",
    "group": "青海",
    "attitude": "官方政策信息",
@@ -2764,6 +2824,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2776,6 +2837,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站/相关视频评论",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "天津",
    "group": "天津",
    "attitude": "公平争议",
@@ -2788,6 +2850,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "投诉维权",
@@ -2800,6 +2863,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -2812,6 +2876,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -2824,6 +2889,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2836,6 +2902,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -2848,6 +2915,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2860,6 +2928,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Campaign for Uyghurs",
+   "platformGroup": "其他",
    "region": "涉及新疆的境外侨民意见",
    "group": "涉及新疆的境外侨民意见",
    "attitude": "待核实信息",
@@ -2872,6 +2941,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "公平争议",
@@ -2884,6 +2954,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2896,6 +2967,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -2908,6 +2980,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻/企鹅号",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "伊犁州奎屯市",
    "group": "伊犁州奎屯市",
    "attitude": "支持认可",
@@ -2920,6 +2993,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "青海",
    "group": "青海",
    "attitude": "歧视偏见",
@@ -2932,6 +3006,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -2944,6 +3019,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "澎湃新闻",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "玉树藏族自治州",
    "group": "青海",
    "attitude": "官方政策信息",
@@ -2956,6 +3032,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -2968,6 +3045,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民委官网",
+   "platformGroup": "其他",
    "region": "西藏自治区",
    "group": "西藏",
    "attitude": "官方政策信息",
@@ -2980,6 +3058,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "宁夏",
    "group": "宁夏",
    "attitude": "支持认可",
@@ -2992,6 +3071,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "今日头条",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "海东市互助土族自治县",
    "group": "青海",
    "attitude": "支持认可",
@@ -3004,6 +3084,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号/视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "肃北蒙古族自治县",
    "group": "肃北蒙古族自治县",
    "attitude": "待核实",
@@ -3016,6 +3097,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -3028,6 +3110,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -3040,6 +3123,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -3052,6 +3136,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -3064,6 +3149,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -3076,6 +3162,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -3088,6 +3175,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -3100,6 +3188,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中新网（繁体频道）",
+   "platformGroup": "其他",
    "region": "青海省西宁市",
    "group": "青海",
    "attitude": "官方实施信息",
@@ -3112,6 +3201,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "新浪财经／微信公众号转载",
+   "platformGroup": "微信公众号/视频号",
    "region": "沧源佤族自治县（代表参与）",
    "group": "沧源佤族自治县（代表参与）",
    "attitude": "官方政策信息",
@@ -3124,6 +3214,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "雪都视野（阿勒泰市官方网易号）",
+   "platformGroup": "其他",
    "region": "县级市",
    "group": "县级市",
    "attitude": "基层执行与依法履职",
@@ -3136,6 +3227,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -3148,6 +3240,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "今日头条",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "西藏自治区",
    "group": "西藏",
    "attitude": "官方实施信息",
@@ -3160,6 +3253,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民委官网",
+   "platformGroup": "其他",
    "region": "全国（含青藏地区）",
    "group": "西藏",
    "attitude": "官方政策信息",
@@ -3172,6 +3266,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "青海",
    "group": "青海",
    "attitude": "支持认可",
@@ -3184,6 +3279,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "云南省民族宗教事务委员会网站",
+   "platformGroup": "其他",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "官方政策信息",
@@ -3196,6 +3292,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "支持认可",
@@ -3208,6 +3305,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "西藏",
    "group": "西藏",
    "attitude": "支持认可",
@@ -3220,6 +3318,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -3232,6 +3331,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "肃北蒙古族自治县",
    "group": "肃北蒙古族自治县",
    "attitude": "待核实",
@@ -3244,6 +3344,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "明确批评",
@@ -3256,6 +3357,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "支持认可",
@@ -3268,6 +3370,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：楚雄发布",
+   "platformGroup": "微信公众号/视频号",
    "region": "楚雄彝族自治州",
    "group": "楚雄彝族自治州",
    "attitude": "官方政策信息",
@@ -3280,6 +3383,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "担忧影响",
@@ -3292,6 +3396,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "明确批评",
@@ -3304,6 +3409,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "实施问题",
@@ -3316,6 +3422,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "公平争议",
@@ -3328,6 +3435,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "今日头条",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "西藏自治区",
    "group": "西藏",
    "attitude": "支持认可",
@@ -3340,6 +3448,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "阿坝藏族羌族自治州",
    "group": "阿坝藏族羌族自治州",
    "attitude": "待核实",
@@ -3352,6 +3461,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "IP属地：广东",
    "group": "IP属地：广东",
    "attitude": "明确批评",
@@ -3364,6 +3474,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民族事务委员会网站",
+   "platformGroup": "其他",
    "region": "楚雄彝族自治州",
    "group": "楚雄彝族自治州",
    "attitude": "官方政策信息",
@@ -3376,6 +3487,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民族事务委员会网站",
+   "platformGroup": "其他",
    "region": "云南全省；涉及楚雄、文山、西双版纳、石林等",
    "group": "云南全省；涉及楚雄、文山、西双版纳、石林等",
    "attitude": "官方政策信息",
@@ -3388,6 +3500,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -3400,6 +3513,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "广东",
    "group": "广东",
    "attitude": "歧视偏见",
@@ -3412,6 +3526,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "宁夏大学",
+   "platformGroup": "其他",
    "region": "宁夏回族自治区/银川市",
    "group": "宁夏回族自治区/银川市",
    "attitude": "官方政策信息",
@@ -3424,6 +3539,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "担忧影响",
@@ -3436,6 +3552,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "实施问题",
@@ -3448,6 +3565,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -3460,6 +3578,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -3472,6 +3591,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -3484,6 +3604,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -3496,6 +3617,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "甘肃省（省级媒体账号）",
    "group": "甘肃省（省级媒体账号）",
    "attitude": "待核实",
@@ -3508,6 +3630,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "云南宣传网",
+   "platformGroup": "其他",
    "region": "云南全省（覆盖本人分工地区）",
    "group": "云南全省（覆盖本人分工地区）",
    "attitude": "官方政策信息",
@@ -3520,6 +3643,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "官方政策信息",
@@ -3532,6 +3656,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "福建",
    "group": "福建",
    "attitude": "歧视偏见",
@@ -3544,6 +3669,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -3556,6 +3682,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "实施问题",
@@ -3568,6 +3695,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -3580,6 +3708,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "峨山县人民政府网站",
+   "platformGroup": "省市政务/媒体网站",
    "region": "峨山彝族自治县",
    "group": "峨山彝族自治县",
    "attitude": "官方政策信息",
@@ -3592,6 +3721,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "安徽",
    "group": "安徽",
    "attitude": "歧视偏见",
@@ -3604,6 +3734,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "担忧影响",
@@ -3616,6 +3747,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -3628,6 +3760,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -3640,6 +3773,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "咨询疑问",
@@ -3652,6 +3786,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "今日头条",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "喀什地区巴楚县",
    "group": "喀什地区巴楚县",
    "attitude": "支持认可",
@@ -3664,6 +3799,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻/企鹅号",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "伊犁州奎屯市",
    "group": "伊犁州奎屯市",
    "attitude": "支持认可",
@@ -3676,6 +3812,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中共中央统一战线工作部",
+   "platformGroup": "其他",
    "region": "互助土族自治县",
    "group": "青海",
    "attitude": "支持认可",
@@ -3688,6 +3825,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "临夏回族自治州临夏市",
    "group": "临夏回族自治州临夏市",
    "attitude": "待核实",
@@ -3700,6 +3838,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "甘肃省（省级账号）",
    "group": "甘肃省（省级账号）",
    "attitude": "待核实",
@@ -3712,6 +3851,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "甘肃省（省级账号）",
    "group": "甘肃省（省级账号）",
    "attitude": "待核实",
@@ -3724,6 +3864,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "云南宣传网",
+   "platformGroup": "其他",
    "region": "楚雄州；红河州；西双版纳州",
    "group": "楚雄州；红河州；西双版纳州",
    "attitude": "官方政策信息",
@@ -3736,6 +3877,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "红河州人民政府网站",
+   "platformGroup": "省市政务/媒体网站",
    "region": "红河哈尼族彝族自治州",
    "group": "红河哈尼族彝族自治州",
    "attitude": "官方政策信息",
@@ -3748,6 +3890,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -3760,6 +3903,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "伊犁哈萨克自治州",
    "group": "伊犁哈萨克自治州",
    "attitude": "支持认可",
@@ -3772,6 +3916,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "伊犁州人大网",
+   "platformGroup": "其他",
    "region": "伊犁哈萨克自治州",
    "group": "伊犁哈萨克自治州",
    "attitude": "支持认可",
@@ -3784,6 +3929,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻/企鹅号",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "伊犁州奎屯市",
    "group": "伊犁州奎屯市",
    "attitude": "支持认可",
@@ -3796,6 +3942,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "四川省（省级账号）",
    "group": "四川省（省级账号）",
    "attitude": "待核实",
@@ -3808,6 +3955,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "红河州人民政府网站",
+   "platformGroup": "省市政务/媒体网站",
    "region": "红河哈尼族彝族自治州（元阳县）",
    "group": "红河哈尼族彝族自治州（元阳县）",
    "attitude": "官方政策信息",
@@ -3820,6 +3968,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "浙江",
    "group": "浙江",
    "attitude": "中性信息",
@@ -3832,6 +3981,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "浙江",
    "group": "浙江",
    "attitude": "明确批评",
@@ -3844,6 +3994,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -3856,6 +4007,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -3868,6 +4020,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -3880,6 +4033,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -3892,6 +4046,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -3904,6 +4059,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "担忧影响",
@@ -3916,6 +4072,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -3928,6 +4085,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "搜狐",
+   "platformGroup": "其他",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "中性信息",
@@ -3940,6 +4098,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "河北",
    "group": "河北",
    "attitude": "实施问题",
@@ -3952,6 +4111,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民族事务委员会",
+   "platformGroup": "其他",
    "region": "全国/北京",
    "group": "全国/北京",
    "attitude": "官方政策信息",
@@ -3964,6 +4124,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -3976,6 +4137,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "支持认可",
@@ -3988,6 +4150,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "IP属地：河南",
    "group": "IP属地：河南",
    "attitude": "支持认可",
@@ -4000,6 +4163,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "xj.chinanews.com.cn",
+   "platformGroup": "其他",
    "region": "昌吉回族自治州",
    "group": "昌吉回族自治州",
    "attitude": "支持认可",
@@ -4012,6 +4176,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -4024,6 +4189,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：楚雄发布",
+   "platformGroup": "微信公众号/视频号",
    "region": "楚雄彝族自治州",
    "group": "楚雄彝族自治州",
    "attitude": "官方政策信息",
@@ -4036,6 +4202,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "陕西",
    "group": "陕西",
    "attitude": "明确批评",
@@ -4048,6 +4215,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "担忧影响",
@@ -4060,6 +4228,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民族事务委员会",
+   "platformGroup": "其他",
    "region": "全国",
    "group": "全国",
    "attitude": "官方政策信息",
@@ -4072,6 +4241,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "重庆市民族宗教事务委员会",
+   "platformGroup": "其他",
    "region": "重庆市/秀山土家族苗族自治县",
    "group": "重庆市/秀山土家族苗族自治县",
    "attitude": "官方政策信息",
@@ -4084,6 +4254,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "红网",
+   "platformGroup": "其他",
    "region": "湖南省/湘西州/泸溪县",
    "group": "湖南省/湘西州/泸溪县",
    "attitude": "中性信息",
@@ -4096,6 +4267,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -4108,6 +4280,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "批评",
@@ -4120,6 +4293,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -4132,6 +4306,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -4144,6 +4319,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "vs.cns.com.cn",
+   "platformGroup": "其他",
    "region": "新疆全区",
    "group": "新疆全区",
    "attitude": "支持认可",
@@ -4156,6 +4332,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻/金台资讯",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "贵州省/黔西南州/贞丰县",
    "group": "贵州省/黔西南州/贞丰县",
    "attitude": "支持认可",
@@ -4168,6 +4345,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -4180,6 +4358,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "担忧影响",
@@ -4192,6 +4371,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "投诉维权",
@@ -4204,6 +4384,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "台湾相关（境外平台）",
    "group": "台湾相关（境外平台）",
    "attitude": "支持认可法律",
@@ -4216,6 +4397,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "临夏回族自治州临夏市",
    "group": "临夏回族自治州临夏市",
    "attitude": "待核实",
@@ -4228,6 +4410,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "积石山保安族东乡族撒拉族自治县",
    "group": "积石山保安族东乡族撒拉族自治县",
    "attitude": "待核实",
@@ -4240,6 +4423,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：西双版纳民族团结进步创建",
+   "platformGroup": "微信公众号/视频号",
    "region": "景洪市（西双版纳州）",
    "group": "景洪市（西双版纳州）",
    "attitude": "官方政策信息",
@@ -4252,6 +4436,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "明确批评",
@@ -4264,6 +4449,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "陕西",
    "group": "陕西",
    "attitude": "歧视偏见",
@@ -4276,6 +4462,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "重庆市民族宗教事务委员会",
+   "platformGroup": "其他",
    "region": "重庆市/秀山自治县",
    "group": "重庆市/秀山自治县",
    "attitude": "官方政策信息",
@@ -4288,6 +4475,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -4300,6 +4488,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "临夏回族自治州临夏市",
    "group": "临夏回族自治州临夏市",
    "attitude": "待核实",
@@ -4312,6 +4501,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "临夏回族自治州临夏县",
    "group": "临夏回族自治州临夏县",
    "attitude": "待核实",
@@ -4324,6 +4514,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "云南宣传网",
+   "platformGroup": "其他",
    "region": "云南全省（覆盖本人分工地区）",
    "group": "云南全省（覆盖本人分工地区）",
    "attitude": "官方政策信息",
@@ -4336,6 +4527,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -4348,6 +4540,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中央统战部官网",
+   "platformGroup": "其他",
    "region": "青海省",
    "group": "青海",
    "attitude": "官方政策信息",
@@ -4360,6 +4553,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "支持认可",
@@ -4372,6 +4566,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "伊犁哈萨克自治州",
    "group": "伊犁哈萨克自治州",
    "attitude": "支持认可",
@@ -4384,6 +4579,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "伊犁哈萨克自治州",
    "group": "伊犁哈萨克自治州",
    "attitude": "支持认可",
@@ -4396,6 +4592,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "石榴云-新疆日报",
+   "platformGroup": "其他",
    "region": "和田县",
    "group": "和田县",
    "attitude": "支持认可",
@@ -4408,6 +4605,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "新疆特克斯",
    "group": "新疆特克斯",
    "attitude": "支持认可",
@@ -4420,6 +4618,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -4432,6 +4631,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -4444,6 +4644,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "临夏回族自治州临夏市",
    "group": "临夏回族自治州临夏市",
    "attitude": "待核实",
@@ -4456,6 +4657,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：文山民族团结进步示范创建",
+   "platformGroup": "微信公众号/视频号",
    "region": "麻栗坡县（文山州）",
    "group": "麻栗坡县（文山州）",
    "attitude": "官方政策信息",
@@ -4468,6 +4670,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "实施问题",
@@ -4480,6 +4683,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "湖北省民族宗教事务委员会",
+   "platformGroup": "其他",
    "region": "湖北省/恩施州/恩施市",
    "group": "湖北省/恩施州/恩施市",
    "attitude": "官方政策信息",
@@ -4492,6 +4696,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -4504,6 +4709,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "担忧影响",
@@ -4516,6 +4722,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -4528,6 +4735,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -4540,6 +4748,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "广西",
    "group": "广西",
    "attitude": "支持认可",
@@ -4552,6 +4761,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻/企鹅号",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "伊犁州奎屯市",
    "group": "伊犁州奎屯市",
    "attitude": "支持认可",
@@ -4564,6 +4774,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "chinanews.com.cn",
+   "platformGroup": "其他",
    "region": "全国（学术视角）",
    "group": "全国（学术视角）",
    "attitude": "支持认可",
@@ -4576,6 +4787,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "xj.chinanews.com.cn",
+   "platformGroup": "其他",
    "region": "昌吉回族自治州",
    "group": "昌吉回族自治州",
    "attitude": "支持认可",
@@ -4588,6 +4800,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "xj.chinanews.com.cn",
+   "platformGroup": "其他",
    "region": "昌吉回族自治州",
    "group": "昌吉回族自治州",
    "attitude": "支持认可",
@@ -4600,6 +4813,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "贵州民族报",
+   "platformGroup": "其他",
    "region": "贵州省",
    "group": "贵州省",
    "attitude": "支持认可",
@@ -4612,6 +4826,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "贵州民族报",
+   "platformGroup": "其他",
    "region": "贵州省/三都、荔波",
    "group": "贵州省/三都、荔波",
    "attitude": "支持认可",
@@ -4624,6 +4839,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "临夏回族自治州临夏市",
    "group": "临夏回族自治州临夏市",
    "attitude": "待核实",
@@ -4636,6 +4852,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "咨询疑问",
@@ -4648,6 +4865,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -4660,6 +4878,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "担忧影响",
@@ -4672,6 +4891,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -4684,6 +4904,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -4696,6 +4917,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "中性信息",
@@ -4708,6 +4930,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "今日头条",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "海北藏族自治州、海南藏族自治州",
    "group": "青海",
    "attitude": "官方实施信息",
@@ -4720,6 +4943,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -4732,6 +4956,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -4744,6 +4969,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻/红网",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "湖南省/邵阳市",
    "group": "湖南省/邵阳市",
    "attitude": "支持认可",
@@ -4756,6 +4982,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "肃北蒙古族自治县",
    "group": "肃北蒙古族自治县",
    "attitude": "待核实",
@@ -4768,6 +4995,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：沧源融媒",
+   "platformGroup": "微信公众号/视频号",
    "region": "沧源佤族自治县",
    "group": "沧源佤族自治县",
    "attitude": "中性信息",
@@ -4780,6 +5008,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "咨询疑问",
@@ -4792,6 +5021,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -4804,6 +5034,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -4816,6 +5047,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -4828,6 +5060,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "搜狐号",
+   "platformGroup": "其他",
    "region": "贵州省/黔南州/长顺县",
    "group": "贵州省/黔南州/长顺县",
    "attitude": "官方政策信息",
@@ -4840,6 +5073,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "搜狐号",
+   "platformGroup": "其他",
    "region": "贵州省/黔西南州",
    "group": "贵州省/黔西南州",
    "attitude": "中性信息",
@@ -4852,6 +5086,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -4864,6 +5099,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻（博州发布账号）",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "博尔塔拉蒙古自治州",
    "group": "博尔塔拉蒙古自治州",
    "attitude": "支持认可",
@@ -4876,6 +5112,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -4888,6 +5125,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "贵州民族报",
+   "platformGroup": "其他",
    "region": "贵州省",
    "group": "贵州省",
    "attitude": "支持认可",
@@ -4900,6 +5138,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "肃北蒙古族自治县",
    "group": "肃北蒙古族自治县",
    "attitude": "待核实",
@@ -4912,6 +5151,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "红河州人民政府网站",
+   "platformGroup": "省市政务/媒体网站",
    "region": "红河哈尼族彝族自治州",
    "group": "红河哈尼族彝族自治州",
    "attitude": "官方政策信息",
@@ -4924,6 +5164,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：文山发布",
+   "platformGroup": "微信公众号/视频号",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "官方政策信息",
@@ -4936,6 +5177,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：文山民族团结进步示范创建",
+   "platformGroup": "微信公众号/视频号",
    "region": "文山壮族苗族自治州（砚山县调研）",
    "group": "文山壮族苗族自治州（砚山县调研）",
    "attitude": "官方政策信息",
@@ -4948,6 +5190,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中共中央台办、国务院台办",
+   "platformGroup": "其他",
    "region": "全国",
    "group": "全国",
    "attitude": "已确认误读",
@@ -4960,6 +5203,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -4972,6 +5216,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民委官网",
+   "platformGroup": "其他",
    "region": "西藏自治区拉萨市",
    "group": "西藏",
    "attitude": "官方实施信息",
@@ -4984,6 +5229,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "海峡两岸",
    "group": "海峡两岸",
    "attitude": "支持认可",
@@ -4996,6 +5242,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "西藏",
    "group": "西藏",
    "attitude": "支持认可",
@@ -5008,6 +5255,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -5020,6 +5268,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "咨询疑问",
@@ -5032,6 +5281,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "中性信息",
@@ -5044,6 +5294,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "新湖南客户端",
+   "platformGroup": "其他",
    "region": "湖南省/湘西州",
    "group": "湖南省/湘西州",
    "attitude": "官方政策信息",
@@ -5056,6 +5307,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -5068,6 +5320,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "咨询疑问",
@@ -5080,6 +5333,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -5092,6 +5346,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "河北",
    "group": "河北",
    "attitude": "支持认可",
@@ -5104,6 +5359,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "内蒙古",
    "group": "内蒙古",
    "attitude": "支持认可",
@@ -5116,6 +5372,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "chinanews.com.cn",
+   "platformGroup": "其他",
    "region": "全国（学术视角）",
    "group": "全国（学术视角）",
    "attitude": "支持认可",
@@ -5128,6 +5385,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "永平县",
    "group": "永平县",
    "attitude": "官方信息",
@@ -5140,6 +5398,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "迪庆州",
    "group": "迪庆州",
    "attitude": "官方信息",
@@ -5152,6 +5411,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "江苏",
    "group": "江苏",
    "attitude": "歧视偏见",
@@ -5164,6 +5424,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "贵州民族报",
+   "platformGroup": "其他",
    "region": "贵州省",
    "group": "贵州省",
    "attitude": "中性信息",
@@ -5176,6 +5437,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻/金台资讯",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "贵州省/黔西南州",
    "group": "贵州省/黔西南州",
    "attitude": "官方政策信息",
@@ -5188,6 +5450,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -5200,6 +5463,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -5212,6 +5476,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -5224,6 +5489,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "担忧影响",
@@ -5236,6 +5502,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -5248,6 +5515,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "云南人大网",
+   "platformGroup": "其他",
    "region": "沧源佤族自治县",
    "group": "沧源佤族自治县",
    "attitude": "支持认可",
@@ -5260,6 +5528,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "山东",
    "group": "山东",
    "attitude": "支持认可",
@@ -5272,6 +5541,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "内蒙古",
    "group": "内蒙古",
    "attitude": "支持认可",
@@ -5284,6 +5554,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻（博州发布账号）",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "博尔塔拉蒙古自治州",
    "group": "博尔塔拉蒙古自治州",
    "attitude": "支持认可",
@@ -5296,6 +5567,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -5308,6 +5580,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "贵州民族报",
+   "platformGroup": "其他",
    "region": "贵州省",
    "group": "贵州省",
    "attitude": "支持认可",
@@ -5320,6 +5593,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "担忧影响",
@@ -5332,6 +5606,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "张家川回族自治县",
    "group": "张家川回族自治县",
    "attitude": "待核实",
@@ -5344,6 +5619,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川省（账号IP属地四川；评论多次涉及凉山，具体发布地待核实）",
    "group": "四川省（账号IP属地四川；评论多次涉及凉山，具体发布地待核实）",
    "attitude": "待核实",
@@ -5356,6 +5632,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民族事务委员会网站",
+   "platformGroup": "其他",
    "region": "楚雄彝族自治州",
    "group": "楚雄彝族自治州",
    "attitude": "官方政策信息",
@@ -5368,6 +5645,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：文山民族团结进步示范创建",
+   "platformGroup": "微信公众号/视频号",
    "region": "麻栗坡县（文山州）",
    "group": "麻栗坡县（文山州）",
    "attitude": "官方政策信息",
@@ -5380,6 +5658,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "迪庆州",
    "group": "迪庆州",
    "attitude": "官方信息",
@@ -5392,6 +5671,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "江苏",
    "group": "江苏",
    "attitude": "歧视偏见",
@@ -5404,6 +5684,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -5416,6 +5697,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "江苏",
    "group": "江苏",
    "attitude": "明确批评",
@@ -5428,6 +5710,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "公平争议",
@@ -5440,6 +5723,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "俄罗斯卫星通讯社中文网",
+   "platformGroup": "其他",
    "region": "全国/境外舆论场",
    "group": "全国/境外舆论场",
    "attitude": "担忧影响（媒体转述第三方关切）",
@@ -5452,6 +5736,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中共中央台办、国务院台办",
+   "platformGroup": "其他",
    "region": "全国",
    "group": "全国",
    "attitude": "官方政策信息",
@@ -5464,6 +5749,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "黔东南州人大常委会",
+   "platformGroup": "其他",
    "region": "贵州省/黔东南州",
    "group": "贵州省/黔东南州",
    "attitude": "官方政策信息",
@@ -5476,6 +5762,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中新网湖北",
+   "platformGroup": "其他",
    "region": "湖北省/恩施州/宣恩县",
    "group": "湖北省/恩施州/宣恩县",
    "attitude": "中性信息",
@@ -5488,6 +5775,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中新网浙江",
+   "platformGroup": "其他",
    "region": "浙江省/丽水市/景宁畲族自治县",
    "group": "浙江省/丽水市/景宁畲族自治县",
    "attitude": "中性信息",
@@ -5500,6 +5788,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -5512,6 +5801,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -5524,6 +5814,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -5536,6 +5827,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -5548,6 +5840,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -5560,6 +5853,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -5572,6 +5866,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "担忧影响",
@@ -5584,6 +5879,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -5596,6 +5892,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "贵州民族报",
+   "platformGroup": "其他",
    "region": "贵州省/黔西南、毕节",
    "group": "贵州省/黔西南、毕节",
    "attitude": "支持认可",
@@ -5608,6 +5905,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "云南宣传网",
+   "platformGroup": "其他",
    "region": "楚雄州；红河州；西双版纳州",
    "group": "楚雄州；红河州；西双版纳州",
    "attitude": "官方政策信息",
@@ -5620,6 +5918,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -5632,6 +5931,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -5644,6 +5944,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "公平争议",
@@ -5656,6 +5957,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "江苏",
    "group": "江苏",
    "attitude": "歧视偏见",
@@ -5668,6 +5970,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -5680,6 +5983,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民族事务委员会",
+   "platformGroup": "其他",
    "region": "贵州省/黔东南州",
    "group": "贵州省/黔东南州",
    "attitude": "官方政策信息",
@@ -5692,6 +5996,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -5704,6 +6009,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -5716,6 +6022,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -5728,6 +6035,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "支持认可",
@@ -5740,6 +6048,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "支持认可",
@@ -5752,6 +6061,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "新疆全区",
    "group": "新疆全区",
    "attitude": "支持认可",
@@ -5764,6 +6074,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "红河州人民政府网站",
+   "platformGroup": "省市政务/媒体网站",
    "region": "红河哈尼族彝族自治州（元阳县）",
    "group": "红河哈尼族彝族自治州（元阳县）",
    "attitude": "官方政策信息",
@@ -5776,6 +6087,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民族事务委员会网站",
+   "platformGroup": "其他",
    "region": "云南全省；涉及楚雄、文山、西双版纳、石林等",
    "group": "云南全省；涉及楚雄、文山、西双版纳、石林等",
    "attitude": "官方政策信息",
@@ -5788,6 +6100,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "IP属地：陕西",
    "group": "IP属地：陕西",
    "attitude": "实施问题",
@@ -5800,6 +6113,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：文山发布",
+   "platformGroup": "微信公众号/视频号",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "官方政策信息",
@@ -5812,6 +6126,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：文山发布",
+   "platformGroup": "微信公众号/视频号",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "官方政策信息",
@@ -5824,6 +6139,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "中性信息",
@@ -5836,6 +6152,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "新疆",
    "group": "新疆",
    "attitude": "中性信息",
@@ -5848,6 +6165,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Campaign for Uyghurs",
+   "platformGroup": "其他",
    "region": "涉及新疆的境外侨民意见",
    "group": "涉及新疆的境外侨民意见",
    "attitude": "明确批评",
@@ -5860,6 +6178,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "重庆市民族宗教事务委员会",
+   "platformGroup": "其他",
    "region": "重庆市/巴南区",
    "group": "重庆市/巴南区",
    "attitude": "官方政策信息",
@@ -5872,6 +6191,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -5884,6 +6204,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -5896,6 +6217,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "支持认可",
@@ -5908,6 +6230,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中新网新疆",
+   "platformGroup": "其他",
    "region": "博州博乐市",
    "group": "博州博乐市",
    "attitude": "支持认可",
@@ -5920,6 +6243,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "chinanews.com.cn",
+   "platformGroup": "其他",
    "region": "全国（学术视角）",
    "group": "全国（学术视角）",
    "attitude": "支持认可",
@@ -5932,6 +6256,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中新网浙江",
+   "platformGroup": "其他",
    "region": "浙江省/丽水市/景宁畲族自治县",
    "group": "浙江省/丽水市/景宁畲族自治县",
    "attitude": "支持认可",
@@ -5944,6 +6269,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "肃北蒙古族自治县",
    "group": "肃北蒙古族自治县",
    "attitude": "待核实",
@@ -5956,6 +6282,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "肃北蒙古族自治县",
    "group": "肃北蒙古族自治县",
    "attitude": "待核实",
@@ -5968,6 +6295,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "甘肃省（省级账号）",
    "group": "甘肃省（省级账号）",
    "attitude": "待核实",
@@ -5980,6 +6308,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "云南省民族宗教事务委员会网站",
+   "platformGroup": "其他",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "官方政策信息",
@@ -5992,6 +6321,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：文山发布",
+   "platformGroup": "微信公众号/视频号",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "官方政策信息",
@@ -6004,6 +6334,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "大理",
    "group": "大理",
    "attitude": "官方信息",
@@ -6016,6 +6347,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "豆瓣",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "明确批评",
@@ -6028,6 +6360,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "咨询疑问",
@@ -6040,6 +6373,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -6052,6 +6386,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "担忧影响",
@@ -6064,6 +6399,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "担忧影响",
@@ -6076,6 +6412,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "担忧影响",
@@ -6088,6 +6425,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "中性信息",
@@ -6100,6 +6438,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "西藏自治区政府驻沪办网站",
+   "platformGroup": "其他",
    "region": "沧源佤族自治县",
    "group": "沧源佤族自治县",
    "attitude": "支持认可",
@@ -6112,6 +6451,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "新疆",
    "group": "新疆",
    "attitude": "支持认可",
@@ -6124,6 +6464,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "肃北蒙古族自治县",
    "group": "肃北蒙古族自治县",
    "attitude": "待核实",
@@ -6136,6 +6477,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "临夏回族自治州广河县",
    "group": "临夏回族自治州广河县",
    "attitude": "待核实",
@@ -6148,6 +6490,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -6160,6 +6503,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：西双版纳民族团结进步创建",
+   "platformGroup": "微信公众号/视频号",
    "region": "景洪市（西双版纳州）",
    "group": "景洪市（西双版纳州）",
    "attitude": "官方政策信息",
@@ -6172,6 +6516,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "新疆",
    "group": "新疆",
    "attitude": "担忧影响",
@@ -6184,6 +6529,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "国家民族事务委员会",
+   "platformGroup": "其他",
    "region": "宁夏回族自治区",
    "group": "宁夏回族自治区",
    "attitude": "官方政策信息",
@@ -6196,6 +6542,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "上饶",
    "group": "上饶",
    "attitude": "明确批评",
@@ -6208,6 +6555,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询疑问",
@@ -6220,6 +6568,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -6232,6 +6581,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -6244,6 +6594,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中新网云南",
+   "platformGroup": "其他",
    "region": "峨山彝族自治县",
    "group": "峨山彝族自治县",
    "attitude": "支持认可",
@@ -6256,6 +6607,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号评论区",
+   "platformGroup": "微信公众号/视频号",
    "region": "新疆维吾尔自治区",
    "group": "新疆维吾尔自治区",
    "attitude": "支持认可",
@@ -6268,6 +6620,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "甘南藏族自治州",
    "group": "甘南藏族自治州",
    "attitude": "待核实",
@@ -6280,6 +6633,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "东乡族自治县",
    "group": "东乡族自治县",
    "attitude": "待核实",
@@ -6292,6 +6646,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "峨山县人民政府网站",
+   "platformGroup": "省市政务/媒体网站",
    "region": "峨山彝族自治县",
    "group": "峨山彝族自治县",
    "attitude": "官方政策信息",
@@ -6304,6 +6659,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "新浪财经／微信公众号转载",
+   "platformGroup": "微信公众号/视频号",
    "region": "沧源佤族自治县（代表参与）",
    "group": "沧源佤族自治县（代表参与）",
    "attitude": "官方政策信息",
@@ -6316,6 +6672,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -6328,6 +6685,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "宁夏",
    "group": "宁夏",
    "attitude": "实施问题",
@@ -6340,6 +6698,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "重庆市民族宗教事务委员会",
+   "platformGroup": "其他",
    "region": "重庆市/巫溪县",
    "group": "重庆市/巫溪县",
    "attitude": "官方政策信息",
@@ -6352,6 +6711,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "重庆市民族宗教事务委员会",
+   "platformGroup": "其他",
    "region": "重庆市",
    "group": "重庆市",
    "attitude": "官方政策信息",
@@ -6364,6 +6724,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "湖北省民族宗教事务委员会",
+   "platformGroup": "其他",
    "region": "湖北省",
    "group": "湖北省",
    "attitude": "官方政策信息",
@@ -6376,6 +6737,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -6388,6 +6750,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -6400,6 +6763,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -6412,6 +6776,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -6424,6 +6789,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "贵州民族报",
+   "platformGroup": "其他",
    "region": "贵州省/黔东南等",
    "group": "贵州省/黔东南等",
    "attitude": "支持认可",
@@ -6436,6 +6802,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：文山民族团结进步示范创建",
+   "platformGroup": "微信公众号/视频号",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "官方政策信息",
@@ -6448,6 +6815,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "大理州",
    "group": "大理州",
    "attitude": "官方信息",
@@ -6460,6 +6828,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "自治州",
    "group": "自治州",
    "attitude": "咨询疑问",
@@ -6472,6 +6841,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "明确批评",
@@ -6484,6 +6854,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中央统战部网站",
+   "platformGroup": "其他",
    "region": "全国",
    "group": "全国",
    "attitude": "中性信息",
@@ -6496,6 +6867,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "新湖南客户端",
+   "platformGroup": "其他",
    "region": "湖南省",
    "group": "湖南省",
    "attitude": "中性信息",
@@ -6508,6 +6880,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "腾讯新闻/红网",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "湖南省/邵阳市",
    "group": "湖南省/邵阳市",
    "attitude": "中性信息",
@@ -6520,6 +6893,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "湖北省民族宗教事务委员会",
+   "platformGroup": "其他",
    "region": "湖北省",
    "group": "湖北省",
    "attitude": "官方政策信息",
@@ -6532,6 +6906,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询疑问",
@@ -6544,6 +6919,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "支持认可",
@@ -6556,6 +6932,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -6568,6 +6945,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "",
    "group": "未分组",
    "attitude": "支持认可",
@@ -6580,6 +6958,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "华人头条",
+   "platformGroup": "贴吧/头条/新闻评论",
    "region": "全国性公众平台",
    "group": "全国性公众平台",
    "attitude": "支持认可",
@@ -6592,6 +6971,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "新疆人大",
+   "platformGroup": "其他",
    "region": "乌鲁木齐市",
    "group": "乌鲁木齐市",
    "attitude": "支持认可",
@@ -6604,6 +6984,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -6616,6 +6997,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -6628,6 +7010,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "咨询疑问",
@@ -6640,6 +7023,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "IP属地：辽宁",
    "group": "IP属地：辽宁",
    "attitude": "实施问题",
@@ -6652,6 +7036,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：沧源融媒",
+   "platformGroup": "微信公众号/视频号",
    "region": "沧源佤族自治县",
    "group": "沧源佤族自治县",
    "attitude": "中性信息",
@@ -6664,6 +7049,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "大理",
    "group": "大理",
    "attitude": "官方信息",
@@ -6676,6 +7062,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "漾濞县",
    "group": "漾濞县",
    "attitude": "官方信息",
@@ -6688,6 +7075,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "福建",
    "group": "福建",
    "attitude": "歧视偏见",
@@ -6700,6 +7088,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "公平争议",
@@ -6712,6 +7101,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询疑问",
@@ -6724,6 +7114,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -6736,6 +7127,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -6748,6 +7140,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "西藏",
    "group": "西藏",
    "attitude": "支持认可",
@@ -6760,6 +7153,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "实施问题",
@@ -6772,6 +7166,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "贵州",
    "group": "贵州",
    "attitude": "中性信息",
@@ -6784,6 +7179,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站/相关视频评论",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "天津",
    "group": "天津",
    "attitude": "担忧影响",
@@ -6796,6 +7192,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -6808,6 +7205,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -6820,6 +7218,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "实施问题",
@@ -6832,6 +7231,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "江苏",
    "group": "江苏",
    "attitude": "支持认可",
@@ -6844,6 +7244,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "新疆",
    "group": "新疆",
    "attitude": "支持认可",
@@ -6856,6 +7257,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：沧源融媒",
+   "platformGroup": "微信公众号/视频号",
    "region": "沧源佤族自治县",
    "group": "沧源佤族自治县",
    "attitude": "中性信息",
@@ -6868,6 +7270,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "大理州",
    "group": "大理州",
    "attitude": "官方信息",
@@ -6880,6 +7283,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "迪庆州",
    "group": "迪庆州",
    "attitude": "官方信息",
@@ -6892,6 +7296,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "普洱/西盟",
    "group": "普洱/西盟",
    "attitude": "官方信息",
@@ -6904,6 +7309,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "浙江",
    "group": "浙江",
    "attitude": "歧视偏见",
@@ -6916,6 +7322,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "安徽",
    "group": "安徽",
    "attitude": "实施问题",
@@ -6928,6 +7335,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -6940,6 +7348,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -6952,6 +7361,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -6964,6 +7374,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -6976,6 +7387,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -6988,6 +7400,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "担忧影响",
@@ -7000,6 +7413,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询/诉求",
@@ -7012,6 +7426,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "中新网新疆",
+   "platformGroup": "其他",
    "region": "博州",
    "group": "博州",
    "attitude": "支持认可",
@@ -7024,6 +7439,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "新疆特克斯",
    "group": "新疆特克斯",
    "attitude": "支持认可",
@@ -7036,6 +7452,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "搜狐",
+   "platformGroup": "其他",
    "region": "文山壮族苗族自治州",
    "group": "文山壮族苗族自治州",
    "attitude": "中性信息",
@@ -7048,6 +7465,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -7060,6 +7478,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号：沧源融媒",
+   "platformGroup": "微信公众号/视频号",
    "region": "沧源佤族自治县",
    "group": "沧源佤族自治县",
    "attitude": "中性信息",
@@ -7072,6 +7491,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "云南",
    "group": "云南",
    "attitude": "官方信息",
@@ -7084,6 +7504,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "洱源县",
    "group": "洱源县",
    "attitude": "官方信息",
@@ -7096,6 +7517,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -7108,6 +7530,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -7120,6 +7543,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -7132,6 +7556,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "实施问题",
@@ -7144,6 +7569,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "德宏州",
    "group": "德宏州",
    "attitude": "官方信息",
@@ -7156,6 +7582,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "未获取",
    "group": "未获取",
    "attitude": "官方政策信息",
@@ -7168,6 +7595,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询疑问",
@@ -7180,6 +7608,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -7192,6 +7621,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -7204,6 +7634,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "咨询疑问",
@@ -7216,6 +7647,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -7228,6 +7660,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "宁夏",
    "group": "宁夏",
    "attitude": "支持认可",
@@ -7240,6 +7673,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -7252,6 +7686,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "IP属地：甘肃",
    "group": "IP属地：甘肃",
    "attitude": "中性信息",
@@ -7264,6 +7699,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "大理",
    "group": "大理",
    "attitude": "官方信息",
@@ -7276,6 +7712,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "迪庆州",
    "group": "迪庆州",
    "attitude": "官方信息",
@@ -7288,6 +7725,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "迪庆州",
    "group": "迪庆州",
    "attitude": "官方信息",
@@ -7300,6 +7738,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "珠三角",
    "group": "珠三角",
    "attitude": "歧视偏见",
@@ -7312,6 +7751,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "实施问题",
@@ -7324,6 +7764,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "观点对立",
@@ -7336,6 +7777,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站/相关视频评论",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "天津",
    "group": "天津",
    "attitude": "担忧影响",
@@ -7348,6 +7790,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -7360,6 +7803,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -7372,6 +7816,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "质疑",
@@ -7384,6 +7829,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -7396,6 +7842,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -7408,6 +7855,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "西藏",
    "group": "西藏",
    "attitude": "支持认可",
@@ -7420,6 +7868,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "新疆",
    "group": "新疆",
    "attitude": "支持认可",
@@ -7432,6 +7881,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "西藏",
    "group": "西藏",
    "attitude": "支持认可",
@@ -7444,6 +7894,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "宁夏",
    "group": "宁夏",
    "attitude": "支持认可",
@@ -7456,6 +7907,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "豆瓣",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -7468,6 +7920,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "中性信息",
@@ -7480,6 +7933,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "投诉维权",
@@ -7492,6 +7946,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -7504,6 +7959,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "青海",
    "group": "青海",
    "attitude": "咨询疑问",
@@ -7516,6 +7972,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "西藏",
    "group": "西藏",
    "attitude": "公平争议",
@@ -7528,6 +7985,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询/诉求",
@@ -7540,6 +7998,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "质疑",
@@ -7552,6 +8011,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "咨询疑问",
@@ -7564,6 +8024,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -7576,6 +8037,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -7588,6 +8050,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -7600,6 +8063,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "支持认可",
@@ -7612,6 +8076,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -7624,6 +8089,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -7636,6 +8102,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "大理",
    "group": "大理",
    "attitude": "官方信息",
@@ -7648,6 +8115,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "祥云县",
    "group": "祥云县",
    "attitude": "官方信息",
@@ -7660,6 +8128,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信公众号",
+   "platformGroup": "微信公众号/视频号",
    "region": "迪庆州",
    "group": "迪庆州",
    "attitude": "官方信息",
@@ -7672,6 +8141,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "迪庆州",
    "group": "迪庆州",
    "attitude": "官方信息",
@@ -7684,6 +8154,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "四川",
    "group": "四川",
    "attitude": "担忧影响",
@@ -7696,6 +8167,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号评论区",
+   "platformGroup": "微信公众号/视频号",
    "region": "新疆维吾尔自治区",
    "group": "新疆维吾尔自治区",
    "attitude": "咨询疑问",
@@ -7708,6 +8180,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微博",
+   "platformGroup": "微博/热榜",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询疑问",
@@ -7720,6 +8193,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "咨询疑问",
@@ -7732,6 +8206,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -7744,6 +8219,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -7756,6 +8232,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -7768,6 +8245,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -7780,6 +8258,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -7792,6 +8271,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -7804,6 +8284,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -7816,6 +8297,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -7828,6 +8310,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -7840,6 +8323,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "浙江",
    "group": "浙江",
    "attitude": "歧视偏见",
@@ -7852,6 +8336,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "安徽",
    "group": "安徽",
    "attitude": "实施问题",
@@ -7864,6 +8349,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "青海",
    "group": "青海",
    "attitude": "公平争议",
@@ -7876,6 +8362,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "",
    "group": "未分组",
    "attitude": "中性信息",
@@ -7888,6 +8375,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "公平争议",
@@ -7900,6 +8388,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "公平争议",
@@ -7912,6 +8401,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "批评",
@@ -7924,6 +8414,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -7936,6 +8427,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -7948,6 +8440,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -7960,6 +8453,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -7972,6 +8466,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "批评",
@@ -7984,6 +8479,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -7996,6 +8492,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8008,6 +8505,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "歧视偏见",
@@ -8020,6 +8518,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "担忧影响",
@@ -8032,6 +8531,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "IP属地：辽宁",
    "group": "IP属地：辽宁",
    "attitude": "支持认可",
@@ -8044,6 +8544,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "支持认可",
@@ -8056,6 +8557,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -8068,6 +8570,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "咨询疑问",
@@ -8080,6 +8583,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "迪庆州",
    "group": "迪庆州",
    "attitude": "官方信息",
@@ -8092,6 +8596,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "云南",
    "group": "云南",
    "attitude": "明确批评",
@@ -8104,6 +8609,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "福建",
    "group": "福建",
    "attitude": "咨询疑问",
@@ -8116,6 +8622,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "批评",
@@ -8128,6 +8635,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -8140,6 +8648,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8152,6 +8661,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -8164,6 +8674,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8176,6 +8687,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8188,6 +8700,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "咨询疑问",
@@ -8200,6 +8713,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "咨询疑问",
@@ -8212,6 +8726,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "宁夏",
    "group": "宁夏",
    "attitude": "支持认可",
@@ -8224,6 +8739,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "担忧影响",
@@ -8236,6 +8752,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "歧视偏见",
@@ -8248,6 +8765,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "青海",
    "group": "青海",
    "attitude": "公平争议",
@@ -8260,6 +8778,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -8272,6 +8791,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8284,6 +8804,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -8296,6 +8817,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "担忧影响",
@@ -8308,6 +8830,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8320,6 +8843,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8332,6 +8856,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8344,6 +8869,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -8356,6 +8882,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "新疆",
    "group": "新疆",
    "attitude": "支持认可",
@@ -8368,6 +8895,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "青海",
    "group": "青海",
    "attitude": "支持认可",
@@ -8380,6 +8908,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "",
    "group": "未分组",
    "attitude": "支持认可",
@@ -8392,6 +8921,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "台湾相关（境外平台）",
    "group": "台湾相关（境外平台）",
    "attitude": "担忧影响",
@@ -8404,6 +8934,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "实施问题",
@@ -8416,6 +8947,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "知乎",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "IP属地：河北",
    "group": "IP属地：河北",
    "attitude": "实施问题",
@@ -8428,6 +8960,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "内蒙古",
    "group": "内蒙古",
    "attitude": "明确批评",
@@ -8440,6 +8973,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "咨询疑问",
@@ -8452,6 +8986,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8464,6 +8999,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8476,6 +9012,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "质疑",
@@ -8488,6 +9025,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "咨询疑问",
@@ -8500,6 +9038,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "台湾相关（境外平台）",
    "group": "台湾相关（境外平台）",
    "attitude": "担忧影响",
@@ -8512,6 +9051,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "新疆",
    "group": "新疆",
    "attitude": "支持认可",
@@ -8524,6 +9064,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "西藏",
    "group": "西藏",
    "attitude": "支持认可",
@@ -8536,6 +9077,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -8548,6 +9090,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -8560,6 +9103,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国",
    "group": "全国",
    "attitude": "支持认可",
@@ -8572,6 +9116,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -8584,6 +9129,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "宝鸡市",
    "group": "宝鸡市",
    "attitude": "咨询疑问",
@@ -8596,6 +9142,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8608,6 +9155,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8620,6 +9168,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8632,6 +9181,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "咨询疑问",
@@ -8644,6 +9194,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8656,6 +9207,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "全国/平台维度",
    "group": "全国/平台维度",
    "attitude": "公平争议",
@@ -8668,6 +9220,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -8680,6 +9233,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "云南宁洱县",
    "group": "云南宁洱县",
    "attitude": "支持认可",
@@ -8692,6 +9246,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "小红书",
+   "platformGroup": "小红书/豆瓣等平台",
    "region": "全国",
    "group": "全国",
    "attitude": "公平争议",
@@ -8704,6 +9259,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "平台/网站",
+   "platformGroup": "其他",
    "region": "涉及地区",
    "group": "涉及地区",
    "attitude": "意见类型",
@@ -8716,6 +9272,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "平台/子域名",
+   "platformGroup": "其他",
    "region": "涉及地区",
    "group": "涉及地区",
    "attitude": "意见类型",
@@ -8728,6 +9285,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "B站/相关视频评论",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "天津",
    "group": "天津",
    "attitude": "担忧影响",
@@ -8740,6 +9298,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8752,6 +9311,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8764,6 +9324,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8776,6 +9337,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8788,6 +9350,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "哔哩哔哩",
+   "platformGroup": "知乎/B站/百度知道",
    "region": "全国性公众平台（非云南限定）",
    "group": "全国性公众平台（非云南限定）",
    "attitude": "中性信息",
@@ -8800,6 +9363,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "公平争议",
@@ -8812,6 +9376,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8824,6 +9389,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -8836,6 +9402,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -8848,6 +9415,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "台湾相关（境外平台）",
    "group": "台湾相关（境外平台）",
    "attitude": "明确批评",
@@ -8860,6 +9428,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "西藏相关（境外活动）",
    "group": "西藏相关（境外活动）",
    "attitude": "明确批评",
@@ -8872,6 +9441,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "账号/栏目",
+   "platformGroup": "其他",
    "region": "行政层级",
    "group": "行政层级",
    "attitude": "具体议题",
@@ -8884,6 +9454,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "平台",
+   "platformGroup": "其他",
    "region": "地区",
    "group": "地区",
    "attitude": "意见",
@@ -8896,6 +9467,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8908,6 +9480,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "实施问题",
@@ -8920,6 +9493,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8932,6 +9506,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川/甘肃",
    "group": "四川/甘肃",
    "attitude": "明确批评",
@@ -8944,6 +9519,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -8956,6 +9532,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -8968,6 +9545,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "全国议题（境外平台）",
    "group": "全国议题（境外平台）",
    "attitude": "明确批评",
@@ -8980,6 +9558,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "台湾相关（境外平台）",
    "group": "台湾相关（境外平台）",
    "attitude": "明确批评",
@@ -8992,6 +9571,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "Reddit",
+   "platformGroup": "其他",
    "region": "西藏相关（境外活动）",
    "group": "西藏相关（境外活动）",
    "attitude": "明确批评",
@@ -9004,6 +9584,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9016,6 +9597,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9028,6 +9610,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9040,6 +9623,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9052,6 +9636,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9064,6 +9649,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9076,6 +9662,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音精选",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9088,6 +9675,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9100,6 +9688,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9112,6 +9701,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9124,6 +9714,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9136,6 +9727,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信视频号",
+   "platformGroup": "微信公众号/视频号",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9148,6 +9740,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -9160,6 +9753,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "公平争议",
@@ -9172,6 +9766,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "微信",
+   "platformGroup": "微信公众号/视频号",
    "region": "青海",
    "group": "青海",
    "attitude": "支持认可",
@@ -9184,6 +9779,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9196,6 +9792,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9208,6 +9805,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9220,6 +9818,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9232,6 +9831,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9244,6 +9844,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9256,6 +9857,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9268,6 +9870,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "四川",
    "group": "四川",
    "attitude": "明确批评",
@@ -9280,6 +9883,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "快手",
+   "platformGroup": "快手",
    "region": "甘肃",
    "group": "甘肃",
    "attitude": "明确批评",
@@ -9292,6 +9896,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9304,6 +9909,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",
@@ -9316,6 +9922,7 @@ window.DASH_DATA = {
   },
   {
    "platform": "抖音",
+   "platformGroup": "抖音等视频平台",
    "region": "云南",
    "group": "云南",
    "attitude": "支持认可",

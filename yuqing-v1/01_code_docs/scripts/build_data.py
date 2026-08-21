@@ -477,6 +477,7 @@ def build_from_atomic(path):
 
         quotes.append({
             "platform": plat,
+            "platformGroup": pgroup,
             "region": region or province,
             "group": rgroup,
             "attitude": att or "待核实",
@@ -977,6 +978,7 @@ def add_quote(platform, region, attitude, text, date, source, account="", langua
         region = ""
     quotes.append({
         "platform": platform,
+        "platformGroup": _platform_group_of(platform),
         "region": region,
         "group": tag_group(region),
         "attitude": attitude,

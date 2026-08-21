@@ -318,6 +318,7 @@
     function quotesByPlatform(platformName){
       const keys=PLAT_KEYS[platformName]||String(platformName||"").split(/[\/、]/).filter(Boolean);
       return (D.quotes||[]).filter(q=>{
+        if(q.platformGroup&&q.platformGroup===platformName)return true;
         const text=`${q.platform||""} ${q.platformGroup||""}`;
         return keys.some(key=>text.includes(key));
       });

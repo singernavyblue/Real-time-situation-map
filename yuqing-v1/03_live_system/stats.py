@@ -162,6 +162,7 @@ def compute_live_stats():
 def row_to_quote(r):
     return {
         "platform": r["platform"] or r["platform_group"] or "",
+        "platformGroup": r.get("platform_group") or "",
         "region": r["region"] or r["province"] or "",
         "group": r["region"] or "",
         "attitude": r["attitude"] or "",
