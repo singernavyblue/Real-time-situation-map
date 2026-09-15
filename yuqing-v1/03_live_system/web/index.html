@@ -55,9 +55,9 @@
     .platform-tip .tip-total{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}.platform-tip b{font-size:20px;color:#5f6b73}
     .tip-bar{height:10px;border-radius:999px;overflow:hidden;background:#e7eef4;display:flex}.tip-bar span{height:100%}.tip-foot{display:flex;justify-content:space-between;margin-top:6px;font-size:10px;color:#74808a;gap:6px}.tip-foot span{white-space:nowrap}
     .split>div{min-height:0;display:flex;flex-direction:column}.split>div:first-child .chart{min-height:150px}
-    .mini-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:0 4px 4px}
-    .mini-meta div{border:1px solid rgba(127,197,236,.15);background:rgba(10,28,47,.55);border-radius:6px;padding:3px 5px;min-width:0}
-    .mini-meta span{display:block;color:var(--muted);font-size:9px}.mini-meta b{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .mini-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px;padding:0 4px 4px}
+    .mini-meta div{display:flex;align-items:center;justify-content:space-between;gap:5px;border:1px solid rgba(127,197,236,.15);background:rgba(10,28,47,.55);border-radius:6px;padding:3px 5px;min-width:0;min-height:26px}
+    .mini-meta span{min-width:0;color:var(--muted);font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.mini-meta b{min-width:0;display:block;font-size:12px;line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right}
     .feed{display:flex;flex-direction:column;gap:5px;min-height:0;overflow:hidden}
     .feed-item{padding:7px 8px;border:1px solid rgba(119,190,226,.16);background:linear-gradient(180deg,rgba(15,42,64,.82),rgba(8,25,40,.88));border-radius:7px;min-height:0;flex:1}
     .feed-head{display:flex;align-items:center;gap:7px;color:#a9d8ef;font-size:10px;white-space:nowrap;overflow:hidden}
@@ -451,7 +451,7 @@
       $("regionMeta").innerHTML=[
         ["地区",r.name],["支持率",percent(r.support,r.total)],["主要平台",top],
         ["总量",fmt(r.total)],["样本最近",latestDate(q)],["样本数",fmt(q.length)]
-      ].map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join("");
+      ].slice(0,2).map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join("");
       charts.region.setOption(barOption(attitudeRows(r),r.name,{left:70,right:18,top:8,bottom:4,barWidth:9}),true);
       renderFeed("regionFeed",q,"当前地区暂无可展示样本",1);
       $("regionFeedTag").textContent=`${r.name}｜${q.length} 条`;
@@ -464,7 +464,7 @@
       $("platformMeta").innerHTML=[
         ["平台",p.name],["总量",fmt(p.total)],["占比",percent(p.total,D.topStats.totalOpinions)],
         ["支持率",percent(p.support,p.total)],["非支持",fmt(p.nonSupport)],["样本数",fmt(q.length)]
-      ].map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join("");
+      ].slice(0,2).map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join("");
       renderFeed("platformFeed",q,"当前平台暂无可展示样本",1);
       $("platformTag").textContent="";
       $("platformFeedTag").textContent=`${p.name}｜${q.length} 条`;
