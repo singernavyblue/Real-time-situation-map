@@ -34,14 +34,21 @@
     .kpi span{font-size:12px;color:var(--muted);white-space:nowrap}.kpi b{font-size:15px;color:#fff;white-space:nowrap}
     .main{position:relative;min-height:0;overflow:hidden;border:1px solid rgba(127,197,236,.14);border-radius:8px;background:rgba(4,15,29,.28)}
     .rail{position:absolute;top:5px;bottom:5px;z-index:5;display:grid;grid-template-rows:minmax(0,1fr) 110px;gap:5px;min-height:0}
-    .rail-left{left:5px;width:286px}.rail-right{right:5px;width:318px;grid-template-rows:minmax(0,1.15fr) minmax(0,.85fr)}
+    .rail-left{left:5px;width:286px;grid-template-rows:minmax(0,1fr) 230px}.rail-right{right:5px;width:318px;grid-template-rows:minmax(0,1.15fr) minmax(0,.85fr)}
     .bottom{display:grid;grid-template-columns:1.16fr 1fr 1fr 1.16fr;gap:6px;min-height:0}
     .panel{display:flex;flex-direction:column;overflow:hidden;background:rgba(12,32,49,.72)}
     .panel-title{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 9px 0;min-width:0}
+    .timeline-title{display:grid;grid-template-columns:minmax(0,1fr) 126px minmax(0,1fr);align-items:center;gap:8px}
+    .timeline-title h2{min-width:0}
+    .timeline-title #timelineTag{text-align:right}
     .panel-title h2{font-size:13px;line-height:1.1;margin:0;white-space:nowrap}
     .panel-title h2 a{color:inherit;text-decoration:none;cursor:pointer}
     .panel-title h2 a:hover{color:var(--hot)}
     .panel-title span{font-size:10px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .timeline-controls{display:flex;align-items:center;gap:2px;flex:0 0 auto}
+    .timeline-switch{border:1px solid rgba(127,197,236,.34);background:rgba(24,68,100,.52);color:#b9dff2;padding:3px 7px;font:inherit;font-size:10px;line-height:1.1;cursor:pointer}
+    .timeline-switch:first-child{border-radius:5px 0 0 5px}.timeline-switch:last-child{border-radius:0 5px 5px 0}
+    .timeline-switch.active{background:rgba(56,189,232,.24);border-color:rgba(56,189,232,.78);color:#fff}
     .chart{flex:1;min-height:0;width:100%}.split{display:grid;grid-template-rows:minmax(0,1fr) 66px;gap:4px;flex:1;min-height:0;padding:4px 5px 5px}
     .platform-tip{position:absolute;z-index:20;display:none;width:198px;padding:8px;border-radius:6px;background:#f8fbff;color:#64717a;box-shadow:0 10px 24px rgba(0,0,0,.24);pointer-events:none}
     .platform-tip .tip-name{font-size:14px;font-weight:700;margin-bottom:6px;color:#5f6b73;white-space:normal;line-height:1.2}
@@ -74,7 +81,7 @@
     .lang-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;min-height:0}
     .lang-card{border:1px solid rgba(127,197,236,.16);background:rgba(11,35,58,.68);border-radius:7px;padding:6px;overflow:hidden;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px}
     .lang-card.active{border-color:rgba(255,207,102,.56);background:rgba(56,45,20,.72)}.lang-card b{display:block;font-size:12px}.lang-card em{font-style:normal;font-size:11px;color:#ffcf66}.lang-card span{display:none}
-    @media(max-width:1500px){.screen{grid-template-rows:32px 34px minmax(0,1fr) 184px}.rail{grid-template-rows:minmax(0,1fr) 100px}.rail-left{width:260px}.rail-right{width:292px;grid-template-rows:minmax(0,1.15fr) minmax(0,.85fr)}.map-head{left:276px}.title{padding:0 22px}.title h1{font-size:20px}.title::before,.title::after{width:38px}.bottom{grid-template-columns:1.1fr 1fr 1fr 1.1fr}.split>div:first-child .chart{min-height:126px}.kpi span{font-size:11px}.kpi b{font-size:14px}}
+    @media(max-width:1500px){.screen{grid-template-rows:32px 34px minmax(0,1fr) 184px}.rail{grid-template-rows:minmax(0,1fr) 100px}.rail-left{width:260px;grid-template-rows:minmax(0,1fr) 205px}.rail-right{width:292px;grid-template-rows:minmax(0,1.15fr) minmax(0,.85fr)}.map-head{left:276px}.title{padding:0 22px}.title h1{font-size:20px}.title::before,.title::after{width:38px}.bottom{grid-template-columns:1.1fr 1fr 1fr 1.1fr}.split>div:first-child .chart{min-height:126px}.kpi span{font-size:11px}.kpi b{font-size:14px}}
   </style>
 </head>
 <body>
@@ -122,7 +129,7 @@
     </main>
     <section class="bottom">
       <section class="panel">
-        <div class="panel-title"><h2>舆情量随时间变化</h2><span id="timelineTag">7月1日起 · 全部网络实时信息</span></div>
+        <div class="panel-title timeline-title"><h2>舆情量随时间变化</h2><div class="timeline-controls"><button class="timeline-switch active" data-timeline-mode="day">按天</button><button class="timeline-switch" data-timeline-mode="hour">按小时</button></div><span id="timelineTag">7月1日起 · 累计信息数</span></div>
         <div id="timelineChart" class="chart"></div>
       </section>
       <section class="panel">
@@ -177,7 +184,7 @@
       "青海":"青海、西藏","西藏":"青海、西藏","云南":"云南东中部民族地区","浙江":"宁夏、贵州、重庆、湖南、湖北、浙江","湖北":"宁夏、贵州、重庆、湖南、湖北、浙江","湖南":"宁夏、贵州、重庆、湖南、湖北、浙江","重庆":"宁夏、贵州、重庆、湖南、湖北、浙江","贵州":"宁夏、贵州、重庆、湖南、湖北、浙江","宁夏":"宁夏、贵州、重庆、湖南、湖北、浙江"
     };
     let D=null;
-    const state={regionIndex:0,platformIndex:0,languageIndex:0,timelineIndex:0,paused:false};
+    const state={regionIndex:0,platformIndex:0,languageIndex:0,timelineIndex:0,timelineMode:"day",paused:false};
     let charts={};
     let regionFocusRows=[];
 
@@ -292,7 +299,13 @@
     function activeRegion(){return regionFocusRows[state.regionIndex]||regionFocusRows[0]||{}}
     function activePlatform(){return platformRows()[state.platformIndex]||platformRows()[0]||{}}
     function activeLanguage(){return languageRows()[state.languageIndex]||languageRows()[0]||{}}
-    function activeTimeline(){return (D.trend||[])[state.timelineIndex]||D.trend[0]||{}}
+    function timelineRows(){
+      if(state.timelineMode==="hour"){
+        return D.trendHourly||D.hourlyTrend||D.trendByHour||D.live?.trendHourly||D.live?.hourlyTrend||D.live?.trendByHour||[];
+      }
+      return D.trend||[];
+    }
+    function activeTimeline(){const rows=timelineRows();return rows[state.timelineIndex]||rows[0]||{}}
     function platformRows(){return [...(D.platforms||[])].sort((a,b)=>(b.total||0)-(a.total||0)).slice(0,7)}
     function isMinorityLanguageName(name){
       return !!name && !/中文|普通话/.test(String(name));
@@ -304,6 +317,61 @@
     }
     function attitudeRows(row){
       return ATT_KEYS.map(([key,name],idx)=>({name,value:Number(row[key]||0),itemStyle:{color:COLORS[idx%COLORS.length]}})).filter(x=>x.value>0);
+    }
+    const ATTITUDE_CLASS_RULES={
+      support:{name:"支持认可",aliases:["支持认可","支持","support"]},
+      neutral:{name:"中性信息",aliases:["中性信息","中性/观点不明","不了解该法律","信息缺口","information_gap","咨询疑问","咨询/诉求","neutral","consultation"]},
+      problematic:{name:"非支持/非肯定",aliases:["非支持/非肯定","担忧影响","担忧","明确批评","批评","质疑","实施问题","公平争议","投诉维权","歧视偏见","concern","criticism","skepticism","implementation_issue","fairness_dispute","complaint_rights","discriminatory_expression"]}
+    };
+    const PROBLEMATIC_ATTITUDES=[
+      ["明确批评",["明确批评","批评","criticism"]],
+      ["担忧影响",["担忧影响","担忧","concern"]],
+      ["质疑",["质疑","skepticism"]],
+      ["实施问题",["实施问题","implementation_issue"]],
+      ["公平争议",["公平争议","fairness_dispute"]],
+      ["投诉维权",["投诉维权","complaint_rights"]],
+      ["歧视偏见",["歧视偏见","discriminatory_expression"]]
+    ];
+    function normalizedAttitudeKey(row){
+      const raw=String(row?.type||row?.ground_truth_type||row?.groundTruthType||row?.name||row?.attitude||"").trim();
+      const status=String(row?.status||row?.ground_truth_status||row?.groundTruthStatus||"").trim();
+      if(ATTITUDE_CLASS_RULES.support.aliases.includes(raw)||/^normal/i.test(status))return "support";
+      if(ATTITUDE_CLASS_RULES.neutral.aliases.includes(raw)||/^attention/i.test(status))return "neutral";
+      if(ATTITUDE_CLASS_RULES.problematic.aliases.includes(raw)||/^problematic/i.test(status))return "problematic";
+      return "";
+    }
+    function attitudeAggregate(){
+      const source=D.attitude?.detail||D.attitude?.byType||D.attitude?.rows;
+      if(!Array.isArray(source)||!source.length)return null;
+      const macro={support:0,neutral:0,problematic:0};
+      const details=new Map(PROBLEMATIC_ATTITUDES.map(([name])=>[name,0]));
+      source.forEach(row=>{
+        const value=Number(row.value??row.count??row.total??0);
+        if(!value)return;
+        const key=normalizedAttitudeKey(row);
+        if(key)macro[key]+=value;
+        const problem=PROBLEMATIC_ATTITUDES.find(([,aliases])=>{
+          const raw=String(row?.type||row?.ground_truth_type||row?.groundTruthType||row?.name||row?.attitude||"").trim();
+          return aliases.includes(raw);
+        });
+        if(problem)details.set(problem[0],details.get(problem[0])+value);
+      });
+      return {
+        macro:[
+          {name:ATTITUDE_CLASS_RULES.support.name,value:macro.support},
+          {name:ATTITUDE_CLASS_RULES.neutral.name,value:macro.neutral},
+          {name:ATTITUDE_CLASS_RULES.problematic.name,value:macro.problematic}
+        ].filter(x=>x.value>0),
+        problematic:PROBLEMATIC_ATTITUDES.map(([name])=>({name,value:details.get(name)||0})).filter(x=>x.value>0)
+      };
+    }
+    function bottomAttitudeData(){
+      const aggregate=attitudeAggregate();
+      if(aggregate)return aggregate;
+      return {
+        macro:(D.attitude?.macro||[]).filter(x=>x.name!=="参与建议"),
+        problematic:(D.nonSupport||[]).filter(x=>x.name!=="咨询疑问")
+      };
     }
     function quotesByRegion(regionOrGroup){
       const name=typeof regionOrGroup==="string"?regionOrGroup:(regionOrGroup&&regionOrGroup.name)||"";
@@ -360,18 +428,19 @@
       if(Number.isInteger(next.regionIndex))state.regionIndex=(next.regionIndex+regionFocusRows.length)%regionFocusRows.length;
       if(Number.isInteger(next.platformIndex))state.platformIndex=(next.platformIndex+platformRows().length)%platformRows().length;
       if(Number.isInteger(next.languageIndex)&&languageRows().length)state.languageIndex=(next.languageIndex+languageRows().length)%languageRows().length;
-      if(Number.isInteger(next.timelineIndex))state.timelineIndex=(next.timelineIndex+D.trend.length)%D.trend.length;
+      const timeline=timelineRows();
+      if(Number.isInteger(next.timelineIndex)&&timeline.length)state.timelineIndex=(next.timelineIndex+timeline.length)%timeline.length;
       renderAll();
     }
     function renderKpis(){
       const T=D.topStats||{};
       const rows=[
-        ["全部网络实时信息",T.totalOpinions],
+        ["累计信息数",T.cumulativeInfo??T.totalOpinions],
+        ["实时新增信息数",T.recent5mInfo??T.recent5mCount??T.realtimeNewInfo??D.live?.recent5mInfo??D.live?.recent5mCount??D.live?.realtimeNewInfo??0],
         [T.regionOpinionsLabel||"可归属地区",T.regionOpinions],
         ["支持认可",T.supportCount],
-        [T.nonSupportLabel||"非支持/非肯定",T.nonSupport],
-        [T.monitorSourcesLabel||"监测来源数",T.monitorSources],
-        [T.viewedInfoLabel||"查看信息数",T.viewedInfo]
+        ["检测地区数",T.detectedRegionCount??T.monitorRegions??D.detectedRegionCount??D.regions?.length??0],
+        ["检测平台数",T.detectedPlatformCount??T.monitorPlatforms??D.detectedPlatformCount??D.platforms?.length??0]
       ];
       $("kpis").innerHTML=rows.map(([label,value])=>`<div class="kpi"><span>${label}</span><b>${typeof value==="number"?fmt(value):value}</b></div>`).join("");
     }
@@ -505,13 +574,16 @@
       }catch(e){}
     }
     function renderBottomCharts(){
-      charts.attitude.setOption(ringOption(D.attitude?.macro||[],"支持率"),true);
-      charts.nonSupport.setOption(barOption((D.nonSupport||[]).map((x,i)=>({...x,itemStyle:{color:MUTED_BAR_COLORS[i%MUTED_BAR_COLORS.length]}})),"非正向态度",{left:82,right:18,top:12,bottom:8,barWidth:10}),true);
+      const attitudeData=bottomAttitudeData();
+      charts.attitude.setOption(ringOption(attitudeData.macro,"支持率"),true);
+      charts.nonSupport.setOption(barOption(attitudeData.problematic.map((x,i)=>({...x,itemStyle:{color:MUTED_BAR_COLORS[i%MUTED_BAR_COLORS.length]}})),"非正向态度",{left:82,right:18,top:12,bottom:8,barWidth:10}),true);
       charts.timeline.setOption(timelineOption(),true);
       const t=activeTimeline();
-      $("timelineTag").textContent=t.date?`${t.date}｜${fmt(t.value)} 条｜全部网络实时信息`:"7月1日起 · 全部网络实时信息";
+      const label=state.timelineMode==="hour"?"实时新增信息数":"累计信息数";
+      const point=t.hour||t.datetime||t.date;
+      $("timelineTag").textContent=point?`${point}｜${fmt(t.value)} 条｜${label}`:(state.timelineMode==="hour"?"暂无小时级实时数据":"7月1日起 · 累计信息数");
     }
-    function renderAll(){renderRegionPanel();renderPlatformPanel();renderLanguagePanel();renderMap();renderBottomCharts()}
+    function renderAll(){renderKpis();renderRegionPanel();renderPlatformPanel();renderLanguagePanel();renderMap();renderBottomCharts()}
     function barOption(rows,title,cfg={}){
       const max=Math.max(...rows.map(x=>x.value||0),1);
       return {grid:{left:cfg.left||80,right:cfg.right||20,top:cfg.top||14,bottom:cfg.bottom||8,containLabel:false},
@@ -564,10 +636,11 @@
         graphic:{type:"text",left:"center",top:"35%",style:{text:centerLabel?`${centerLabel}\n${percent(rows[0]?.value,total)}`:"",fill:"#fff",fontSize:12,fontWeight:700,textAlign:"center"}}};
     }
     function timelineOption(){
-      const rows=D.trend||[];
-      return {grid:{left:34,right:14,top:16,bottom:26},tooltip:{trigger:"axis"},xAxis:{type:"category",data:rows.map(x=>String(x.date||"").slice(5)),axisLabel:{color:"#9bd8f5",fontSize:10},axisLine:{lineStyle:{color:"rgba(127,197,236,.34)"}}},
+      const rows=timelineRows();
+      const isHour=state.timelineMode==="hour";
+      return {grid:{left:34,right:14,top:16,bottom:26},tooltip:{trigger:"axis"},xAxis:{type:"category",data:rows.map(x=>String(x.hour||x.datetime||x.date||"").replace(/^\d{4}-/,"").slice(isHour?0:0,isHour?16:5)),axisLabel:{color:"#9bd8f5",fontSize:10},axisLine:{lineStyle:{color:"rgba(127,197,236,.34)"}}},
         yAxis:{type:"value",axisLabel:{color:"#9bd8f5",fontSize:10},splitLine:{lineStyle:{color:"rgba(127,197,236,.1)"}}},
-        series:[{type:"line",smooth:true,data:rows.map(x=>x.value||0),symbolSize:rows.map((_,i)=>i===state.timelineIndex?9:4),lineStyle:{color:"#35c3ff",width:2.5},itemStyle:{color:"#ffcf66"},areaStyle:{color:"rgba(53,195,255,.16)"}}]};
+        series:[{type:"line",smooth:true,data:rows.map(x=>x.value||0),symbolSize:rows.map((_,i)=>i===state.timelineIndex?9:4),lineStyle:{color:isHour?"#78cdda":"#35c3ff",width:2.5},itemStyle:{color:"#ffcf66"},areaStyle:{color:"rgba(53,195,255,.16)"}}]};
     }
     function initCharts(){
       if(window.CHINA_GEO&&!echarts.getMap("china_main")){
@@ -597,7 +670,7 @@
         const idx=regionFocusRows.findIndex(r=>regionProvinces(r.name).includes(province)||r.name===province);
         if(idx>=0)setFocusState({regionIndex:idx});
       });
-      charts.timeline.on("click",p=>{const idx=(D.trend||[]).findIndex(x=>String(x.date||"").slice(5)===p.name||x.date===p.name);if(idx>=0)setFocusState({timelineIndex:idx})});
+      charts.timeline.on("click",p=>{const idx=timelineRows().findIndex(x=>String(x.hour||x.datetime||x.date||"").replace(/^\d{4}-/,"").slice(state.timelineMode==="hour"?0:0,state.timelineMode==="hour"?16:5)===p.name||x.date===p.name||x.hour===p.name);if(idx>=0)setFocusState({timelineIndex:idx})});
       window.addEventListener("resize",()=>Object.values(charts).forEach(c=>{try{c.resize()}catch(e){}}));
       window.addEventListener("resize",()=>{try{renderNanhaiFrame();renderRipples()}catch(e){}});
     }
@@ -607,6 +680,12 @@
       setInterval(()=>{if(!state.paused)setFocusState({languageIndex:state.languageIndex+1})},11000);
       setInterval(()=>{if(!state.paused)setFocusState({timelineIndex:state.timelineIndex+1})},3200);
       $("pauseBtn").onclick=()=>{state.paused=!state.paused;$("pauseBtn").textContent=state.paused?"继续轮播":"暂停轮播";$("pauseBtn").classList.toggle("paused",state.paused)};
+      document.querySelectorAll("[data-timeline-mode]").forEach(button=>button.onclick=()=>{
+        state.timelineMode=button.dataset.timelineMode;
+        state.timelineIndex=0;
+        document.querySelectorAll("[data-timeline-mode]").forEach(node=>node.classList.toggle("active",node===button));
+        renderBottomCharts();
+      });
       setInterval(()=>{if(!state.paused)renderAll()},15000);
     }
     loadDashboardData().then(data=>{
